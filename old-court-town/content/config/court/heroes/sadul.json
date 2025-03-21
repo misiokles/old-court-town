@@ -1,0 +1,47 @@
+{
+	"sadul" : 
+	{
+		"class" : "mentat",
+		"female" : false,
+                "texts" :
+		{
+			"name" : "图尔萨多",
+			"biography" : "图尔萨多是一位古老的炼金术士，懂得很多神秘的魔法。",
+			"specialty" :
+			{
+				"description" : "达到7级以后提高自走铁炮或自走钢炮的攻击力与防御力。",
+				"tooltip" : "生物强化：自走铁炮",
+				"name" : "自走铁炮"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/sadul/spec-small.bmp",
+			"specialtyLarge" : "court/heroes/sadul/spec-large.bmp",
+			"large" : "court/heroes/sadul/portrait-large.bmp",
+			"small" : "court/heroes/sadul/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty": //Diplomacy
+		{
+			"creature" : "culv7"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"masot" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "马索特",
+			"biography" : "人们对马索特知之甚少。",
+			"specialty" :
+			{
+				"description" : "在气系魔法上每级得到5%的额外伤害奖励。",
+				"tooltip" : "技能加成：气系魔法",
+				"name" : "气系魔法"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/masot/spec-small.png",
+			"specialtyLarge" : "court/heroes/masot/spec-large.png",
+			"large" : "court/heroes/masot/portrait-large.png",
+			"small" : "court/heroes/masot/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+                ],
+                "army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": //Air Magic
+		{
+			"bonuses":
+			{
+				"airMagic": {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "air",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val": 5
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,51 @@
+{
+	"don" :
+	{
+		"class" : "courtPhilosopher",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "唐米诺",
+			"biography" : "人们对唐米诺知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到2级以后提高战鹅或皇家战鹅的攻击力与防御力。",
+				"tooltip" : "生物加成：战鹅",
+				"name" : "战鹅"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/don/spec-small.png",
+			"specialtyLarge" : "court/heroes/don/spec-large.png",
+			"large" : "court/heroes/don/portrait-large.png",
+			"small" : "court/heroes/don/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "culv2"
+		}		
+	}
+}

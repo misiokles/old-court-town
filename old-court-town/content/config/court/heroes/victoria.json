@@ -1,0 +1,47 @@
+{
+	"victoria" : 
+	{
+		"class" : "mentat",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "维多利亚",
+			"biography" : "人们对维多利亚知之甚少。", 
+			"specialty" :
+			{
+				"description" : "达到4级以后提高女男爵或女伯爵的攻击力与防御力。",
+				"tooltip" : "生物强化：女男爵",
+				"name" : "女男爵"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "court/heroes/victoria/spec-small.png",
+			"specialtyLarge" : "court/heroes/victoria/spec-large.png",
+			"large" : "court/heroes/victoria/portrait-large.png",
+			"small" : "court/heroes/victoria/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "culv4"
+		}		
+	}
+}

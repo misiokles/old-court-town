@@ -1,0 +1,121 @@
+{
+	"culv5":
+	{
+		"name" :
+		{
+			"plural" : "渡渡鸟",
+			"singular" : "渡渡鸟"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "court",
+		"aiValue" : 904,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 10
+		},
+		"defense" :9,
+		"fightValue" : 889,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv5.DEF",
+                        "animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "court/map/creatures/lv5map.def",
+			"iconSmall" : "court/iconsSmall/lv5s.bmp",
+			"iconLarge" : "court/iconsBig/lv5b.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 55,
+		"level" : 5,
+		"upgrades":
+		[
+			"culv5up"
+		],
+		"sound" :
+		{
+			"attack": "YBMHATTK.wav",
+			"defend": "YBMHDFND.wav",
+			"killed": "YBMHKILL.wav",
+			"move": "YBMHMOVE.wav",
+			"wince": "YBMHWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"slayer" : {
+			"type" : "ENCHANTED",
+			"subtype" : "spell.slayer",
+			"val" : 3
+			},
+			"fearless" : {
+			"type" : "FEARLESS",
+			},
+			"damageReduction1" : {
+			"type" : "GENERAL_DAMAGE_REDUCTION",
+			"subtype" : "damageTypeMelee",
+			"val" : 25
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_MIRROR"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

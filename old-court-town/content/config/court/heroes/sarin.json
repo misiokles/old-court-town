@@ -1,0 +1,60 @@
+{
+	"sarin" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "萨林",
+			"biography" : "人们对萨林知之甚少。",
+			"specialty" : 
+			{
+				"description" : "在火系魔法上每级得到5%的额外伤害奖励。",
+				"tooltip" : "技能加成：火系魔法",
+				"name" : "火系魔法"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/sarin/spec-small.png",
+			"specialtyLarge" : "court/heroes/sarin/spec-large.png",
+			"large" : "court/heroes/sarin/portrait-large.png",
+			"small" : "court/heroes/sarin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+		
+		"specialty": //fireMagic
+		{
+			"bonuses":
+			{
+				"fireMagic": {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "fire",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val": 5
+				}
+			}
+		}
+	}
+}

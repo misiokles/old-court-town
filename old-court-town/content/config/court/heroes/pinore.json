@@ -1,0 +1,60 @@
+{
+	"pinore" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : true,
+        "texts" :
+		{
+			"name" : "皮诺尔",
+			"biography" : "人们对皮诺尔知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用丧心病狂魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：丧心病狂",
+				"name" : "丧心病狂"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/pinore/spec-small.png",
+			"specialtyLarge" : "court/heroes/pinore/spec-large.png",
+			"large" : "court/heroes/pinore/portrait-large.png",
+			"small" : "court/heroes/pinore/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty": //Berserk
+		{
+			"bonuses":
+			{
+				"berserk": {
+					"type": "SPECIAL_PECULIAR_ENCHANT",
+					"subtype": "spell.berserk", //not sure how it will work, anyway
+					"addInfo": 0 //normal, like most of hereos
+				}
+			}
+		}
+	}
+}
+

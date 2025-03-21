@@ -1,0 +1,111 @@
+{
+	"culv6":
+	{
+		"name" :
+		{
+			"plural" : "异鸟像",
+			"singular" : "异鸟像"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "court",
+		"aiValue" : 2212,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1100
+			
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 20
+		},
+		"defense" : 13,
+		"fightValue" : 1952,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv6.DEF",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "court/map/creatures/lv6map.def",
+			"iconSmall" : "court/iconsSmall/lv6s.bmp",
+			"iconLarge" : "court/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		"upgrades":
+		[
+			"culv6up"
+		],
+		"sound" :
+		{
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+               "nonliving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+		"nomorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 2,
+				"addInfo" : 10
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			}
+		]
+	}
+}
+

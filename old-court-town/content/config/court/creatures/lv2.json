@@ -1,0 +1,109 @@
+{
+	"culv2":
+	{
+		"name" :
+		{
+			"plural" : "战鹅",
+			"singular" : "战鹅"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction": "court",
+		"aiValue" : 255,
+		"fightValue" : 265,
+		"attack" : 6,
+		"defense" : 7,
+		"cost" :
+		{
+			"gold" : 120
+		},
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"speed" : 5,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv2.def",
+			"map" : "court/map/creatures/lv2map.def",
+			"iconSmall" : "court/iconsSmall/lv2s.bmp",
+			"iconLarge" : "court/iconsBig/lv2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			}
+
+		},
+		"hitPoints" : 20,
+		"doubleWide" : true,
+		"growth" : 8,
+		"horde" : 4,
+		"upgrades":
+		[
+			"culv2up"
+		],
+                "level" : 2,
+		"sound" :
+		{
+			"attack": "TROGATTK.wav",
+			"defend": "TROGDFND.wav",
+			"killed": "TROGKILL.wav",
+			"move": "TROGMOVE.wav",
+			"wince": "TROGWNCE.wav"
+		},
+		"abilities" :
+		{
+
+            "noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			}
+		]
+
+	}
+}

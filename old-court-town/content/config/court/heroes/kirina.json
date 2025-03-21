@@ -1,0 +1,59 @@
+{
+	"kirina" : 
+	{
+
+		"class" : "courtPhilosopher",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "姬琳娜",
+			"biography" : "人们对姬琳娜知之甚少。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "每天+350金币",
+				"name" : "+350个金币"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/kirina/spec-small.png",
+			"specialtyLarge" : "court/heroes/kirina/spec-large.png",
+			"large" : "court/heroes/kirina/portrait-large.png",
+			"small" : "court/heroes/kirina/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+               "army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty": //estates
+		{
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

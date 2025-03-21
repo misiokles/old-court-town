@@ -1,0 +1,55 @@
+{
+	"berok" :
+	{
+		"class" : "mentat",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "贝罗克",
+			"biography" : "人们对贝罗克知之甚少。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供1宝石。",
+				"tooltip" : "每天+1宝石",
+				"name" : "+1宝石"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "court/heroes/berok/spec-small.png",
+			"specialtyLarge" : "court/heroes/berok/spec-large.png",
+			"large" : "court/heroes/berok/portrait-large.png",
+			"small" : "court/heroes/berok/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty": //estate bonus
+		{
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

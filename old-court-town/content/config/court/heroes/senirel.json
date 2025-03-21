@@ -1,0 +1,50 @@
+{
+	"senirel" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "森妮瑞尔",
+			"biography" : "很难说她是一个人还是一株植物，总之好好欣赏曼德拉草的嘶嚎吧。", 
+			"specialty" :
+			{
+				"description" : "达到1级以后提高曼德拉草或曼德拉精的攻击力与防御力。",
+				"tooltip" : "生物强化：曼德拉草",
+				"name" : "曼德拉草"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/senirel/spec-small.png",
+			"specialtyLarge" : "court/heroes/senirel/spec-large.png",
+			"large" : "court/heroes/senirel/portrait-large.png",
+			"small" : "court/heroes/senirel/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"creature" : "culv1"
+		}		
+	}
+}

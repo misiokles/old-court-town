@@ -1,0 +1,44 @@
+{
+	"sentriks" :
+	{
+		"class" : "mentat",
+		"female" : false,
+
+		
+		"texts" :
+		{
+			"name" : "森翠克",
+			"biography" : "森翠克在学术上造诣非凡，可以指出皇家炼金术士的错误。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高异鸟像或三首异鸟像的攻击力与防御力。",
+				"tooltip" : "生物强化：异鸟像",
+				"name" : "异鸟像"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/sentriks/spec-small.png",
+			"specialtyLarge" : "court/heroes/sentriks/spec-large.png",
+			"large" : "court/heroes/sentriks/portrait-large.png",
+			"small" : "court/heroes/sentriks/portrait-small.png"
+		},
+                "army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "culv6"
+		}		
+	}
+}

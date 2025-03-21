@@ -1,0 +1,145 @@
+{
+	"culv7up":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"name" :
+		{
+			"plural" : "自走钢炮",
+			"singular" : "自走钢炮"
+		},
+		"faction": "court",
+		"aiValue" : 8076,
+		"fightValue" : 5830,
+		"attack" : 21,
+		"defense" : 18,
+		"cost" :
+		{
+			"gold" : 2500,
+                        "gems" : 1
+		},
+		"damage" :
+		{
+			 "min" : 30,
+			 "max" : 40
+		},
+		"speed" : 10,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv7up.def",
+			"map" : "court/map/creatures/lv7upmap.def",
+			"iconSmall" : "court/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "court/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "Phalf",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"hitPoints" : 150,
+		"doubleWide" : true,
+		"upgrades":
+		[
+			"culv7up2"
+		],				
+		"growth" : 1,
+		"level" : 7,
+		"shots" : 24,		
+		"sound" :
+		{
+			"attack": "CYCLATTK.wav",
+			"defend": "CYCLDFND.wav",
+			"killed": "CYCLKILL.wav",
+			"move": "CYCLMOVE.wav",
+			"shoot": "CYCLSHOT.wav",
+			"wince": "CYCLWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+                       "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+                        "noPenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+		       "fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireball"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

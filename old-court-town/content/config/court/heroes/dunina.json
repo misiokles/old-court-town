@@ -1,0 +1,61 @@
+{
+	"dunina" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "杜妮娜",
+			"biography" : "人们对杜妮娜知之甚少。",
+			"specialty" :
+			{
+				"description" : "在土系魔法上每级得到5%的额外伤害奖励。",
+				"tooltip" : "技能加成：土系魔法",
+				"name" : "土系魔法"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/dunina/spec-small.png",
+			"specialtyLarge" : "court/heroes/dunina/spec-large.png",
+			"large" : "court/heroes/dunina/portrait-large.png",
+			"small" : "court/heroes/dunina/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		
+		"specialty": //Diplomacy
+		{
+			"bonuses":
+			{
+				"earthMagic": {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "earth",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val": 5
+				}
+			}
+		}
+	}
+}

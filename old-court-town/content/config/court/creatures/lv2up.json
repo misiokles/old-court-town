@@ -1,0 +1,106 @@
+{
+	"culv2up":
+	{
+		"name" :
+		{
+			"plural" : "皇家战鹅",
+			"singular" : "皇家战鹅"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction": "court",
+		"aiValue" : 275,
+		"fightValue" : 285,
+		"attack" : 7,
+		"defense" : 7,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"speed" : 6,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv2up.def",
+			"map" : "court/map/creatures/lv2upmap.def",
+			"iconSmall" : "court/iconsSmall/lv2ups.bmp",
+			"iconLarge" : "court/iconsBig/lv2upb.bmp",
+		        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			}
+
+		},
+		"hitPoints" : 20,
+		"doubleWide" : true,
+		"growth" : 8,
+		"horde" : 4,
+                "level" : 2,
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		},
+		"abilities" :
+		{
+		"noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+	        "canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			}
+		]				
+	}
+}

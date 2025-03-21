@@ -1,0 +1,55 @@
+{
+	"leltes" :
+	{
+		"class" : "mentat",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "列特斯",
+			"biography" : "人们对列特斯知之甚少。",
+			"specialty" :
+			{
+				"description" : "在防御术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：防御术",
+				"name" : "防御术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/leltes/spec-small.png",
+			"specialtyLarge" : "court/heroes/leltes/spec-large.png",
+			"large" : "court/heroes/leltes/portrait-large.png",
+			"small" : "court/heroes/leltes/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty": //defense bonus
+		{
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

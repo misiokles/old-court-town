@@ -1,0 +1,80 @@
+
+{
+	"name" : "Court",
+	"description" : "New town: Court",
+	"author" : "Trith, zeryss, avatar",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=36829",
+	"version" : "0.6.",
+	"modType" : "Town",
+	"language": "chinese",
+	"chinese": {
+		"name": "庄园",
+		"description": "新城镇：庄园。"
+	},
+	"factions" :
+	[
+		"config/court/town/buildings.json",
+		"config/court/town/faction.json",
+		"config/court/town/siege.json",
+		"config/court/town/spells.json",
+		"config/court/town/structures.json",
+		"config/court/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/court/creatures/lv1.json",
+		"config/court/creatures/lv1up.json",
+                "config/court/creatures/lv2.json",
+		"config/court/creatures/lv2up.json",
+		"config/court/creatures/lv3.json",
+		"config/court/creatures/lv3up.json",
+		"config/court/creatures/lv4.json",
+		"config/court/creatures/lv4up.json",
+                "config/court/creatures/lv5.json",
+		"config/court/creatures/lv5up.json",
+                "config/court/creatures/lv5net.json",
+                "config/court/creatures/lv6.json",
+		"config/court/creatures/lv6up.json",
+		"config/court/creatures/lv7.json",
+		"config/court/creatures/lv7up.json",
+		"config/court/creatures/lv7up2.json",
+                "config/court/creatures/commander.json",
+                "config/court/creatures/FelCannon.json"
+		
+	],
+    "artifacts":
+        [              
+               "config/court/artifacts/FelCannonArt.json"        
+        ],
+	"heroClasses" :
+	[
+		"config/court/classes/philosopher.json",
+		"config/court/classes/mentat.json"
+
+	],
+
+	"heroes" :
+	[
+               "config/court/heroes/anyra.json",
+		"config/court/heroes/arbroks.json",
+		"config/court/heroes/berok.json",
+		"config/court/heroes/don.json",
+		"config/court/heroes/dunina.json",
+		"config/court/heroes/kirina.json",
+		"config/court/heroes/leltes.json",
+		"config/court/heroes/masot.json",
+		"config/court/heroes/oreks.json",
+		"config/court/heroes/pinore.json",
+		"config/court/heroes/sadul.json",
+		"config/court/heroes/sarin.json",
+		"config/court/heroes/senirel.json",
+		"config/court/heroes/sentriks.json",
+		"config/court/heroes/tulan.json",
+		"config/court/heroes/victoria.json",
+		"config/court/heroes/zaxim.json"
+		
+	],
+	"objects" : [ "config/court/dwellings" ],
+	"spells" : [ "config/court/spells/moat.json" ]
+}

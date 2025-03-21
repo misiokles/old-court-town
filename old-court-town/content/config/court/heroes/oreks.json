@@ -1,0 +1,60 @@
+{
+	"oreks" : 
+	{
+		"class" : "courtPhilosopher",
+		"female" : false,
+"texts" :
+		{
+			"name" : "欧瑞克",
+			"biography" : "人们对欧瑞克知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用护体石肤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：护体石肤",
+				"name" : "护体石肤"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "court/heroes/oreks/spec-small.png",
+			"specialtyLarge" : "court/heroes/oreks/spec-large.png",
+			"large" : "court/heroes/oreks/portrait-large.png",
+			"small" : "court/heroes/oreks/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty":
+		{
+			"bonuses":
+			{
+				"stoneSkin": {
+					"type": "SPECIAL_SPELL_LEV",
+					"subtype": "spell.stoneSkin",
+					"val": 5
+				}
+			}
+		}
+	}
+}

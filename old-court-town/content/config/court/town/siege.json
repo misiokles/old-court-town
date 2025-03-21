@@ -1,0 +1,59 @@
+{
+	"court" :
+	{
+		"town" :
+		{
+			"siege" :
+			{
+				"shooter" : "culv4up",
+				"imagePrefix" : "court/siege/SgEl",
+				"towerIconSmall" : "court/icons/towerSmall",
+				"towerIconLarge" : "court/icons/towerLarge",
+				"gate" :
+				{
+					"arch" : { "x" : 486, "y" : 210 },
+					"gate" : { "x" : 408, "y" : 275 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 407, "y" : 85 },
+					"moat" : { "x" : 407, "y" : 90 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 600, "y" : 50 },
+					"bottom" : { "x" : 509, "y" : 346 },
+					"top" : { "x" : 490, "y" : 97 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 595, "y" : 505 },
+						"creature" : { "x" : 382, "y" : 308 },
+						"tower" : { "x" : 595, "y" : 505 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 736, "y" : 159 },
+						"creature" : { "x" : 529, "y" : -42 },
+						"tower" : { "x" : 736, "y" : 159 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 576, "y" : 28 },
+						"creature" : { "x" : 344, "y" : -168 },
+						"tower" : { "x" : 576, "y" : 28 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 509, "y" : 346 },
+					"bottomMid" : { "x" : 486, "y" : 232 },
+					"upper" : { "x" : 515, "y" : 72 },
+					"upperMid" : { "x" : 477, "y" : 147 }
+				}
+			}
+		}
+	}
+}

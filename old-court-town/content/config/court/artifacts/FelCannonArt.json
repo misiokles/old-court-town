@@ -1,0 +1,23 @@
+{
+	"felCannon":
+        {
+	"type" : ["HERO"],
+	"warMachine":"cuFelCannon",
+        "class": "SPECIAL",
+        "value": 5000,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "魔能炮",
+			"description": "{魔能炮}\r\n\r\n造梦科学家的最新发明，用于摧毁敌人部队的利器。",
+			"event": "通用战争机器莫蒂拉可让你攻击敌方的城墙。"
+		},
+		"graphics":
+		{
+			"image": "court/iconsSmall/artifacts/felc.bmp",
+			"map"  : "court/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

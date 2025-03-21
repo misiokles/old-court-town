@@ -1,0 +1,47 @@
+{
+	"tulan" :
+	{
+		"class" : "mentat",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "图兰",
+			"biography" : "人们对图兰知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到3级以后提高红猪或火猪的攻击力与防御力。",
+				"tooltip" : "生物强化：红猪",
+				"name" : "红猪"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/tulan/spec-small.png",
+			"specialtyLarge" : "court/heroes/tulan/spec-large.png",
+			"large" : "court/heroes/tulan/portrait-large.png",
+			"small" : "court/heroes/tulan/portrait-small.png"
+		},
+                "army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "culv3"
+		}		
+	}
+}

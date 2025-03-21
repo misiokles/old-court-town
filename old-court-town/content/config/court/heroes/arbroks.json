@@ -1,0 +1,66 @@
+{
+	"arbroks" :
+	{
+		"class" : "courtPhilosopher",
+		"female" : false,
+
+
+		"texts" :
+		{
+			"name" : "安布罗克",
+			"biography" : "人们对安布罗克知之甚少。",
+			"specialty" :
+			{
+				"description" : "在魔力技能上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：魔力",
+				"name" : "魔力"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "court/heroes/arbroks/spec-small.png",
+			"specialtyLarge" : "court/heroes/arbroks/spec-large.png",
+			"large" : "court/heroes/arbroks/portrait-large.png",
+			"small" : "court/heroes/arbroks/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 10, "max" : 15 },
+			{ "creature" : "culv2", "min" : 6, "max" : 9 },
+			{ "creature" : "culv3", "min" : 4, "max" : 6}
+		],
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": //sorcery bonus
+		{
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

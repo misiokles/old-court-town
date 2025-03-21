@@ -1,0 +1,110 @@
+{
+	"culv6up":
+	{
+		"name" :
+		{
+			"plural" : "三首异鸟像",
+			"singular" : "三首异鸟像"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "court",
+		"aiValue" : 2900,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1600
+		},
+		"damage" :
+		{
+			"max" : 25,
+			"min" : 20
+		},
+		"defense" : 13,
+		"fightValue" : 2718,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/lv6up.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "court/map/creatures/lv6upmap.def",
+			"iconSmall" : "court/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "court/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "OGREATTK.wav",
+			"defend": "OGREDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"wince": "OGREWNCE.wav"
+                     
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+                "nonliving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+		"nomorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 2,
+				"addInfo" : 20
+                         },
+                         "threeHeads" : 
+			 {
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			}
+		]
+	}
+}

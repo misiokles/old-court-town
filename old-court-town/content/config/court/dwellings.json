@@ -1,0 +1,90 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"cuTree" : {
+				"name" : "植物园",
+				"creatures" : [[ "culv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-1.def",
+						"mask" : [ "VBV", "BAB" ]
+					}
+				}
+			},
+			"cuGarden" : {
+				"name" : "奇树",
+				"creatures" : [[ "culv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"cuFoundry" : {
+				"name" : "兽栏",
+				"creatures" : [[ "culv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "court/map/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "ABB" ]
+					}
+				}
+			},
+			"cuAlchemyLab" : {
+				"name" : "殿堂",
+				"creatures" : [[ "culv4" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-4.def",
+						"mask" : [ "VVV", "VBV", "BAB" ]
+					}
+				}
+			},
+			"cuPalace" : {
+				"name" : "巢穴",
+				"creatures" : [[ "culv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-5.def",
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+					}
+				}
+			},
+			"cuAlchemicalFactory" : {
+				"name" : "炼金实验室",
+				"creatures" : [[ "culv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVV", "BVV", "BAB" ]
+					}
+				}
+			},
+			"cuCave" : {
+				"name" : "炼金工厂",
+				"creatures" : [[ "culv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-7.def",
+						"mask" : [ "VVVV", "VVBV", "VBAB" ]
+					}
+				}
+			},
+			"cuCastle" : {
+				"name" : "城堡",
+				"creatures" : [[ "culv5net" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "court/map/dwellings/dwelling-8.def",
+						"mask" : [ "VVV", "VBV", "BAB" ]
+					}
+				}
+			}
+		}		
+	}
+}
