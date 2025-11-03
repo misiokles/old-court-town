@@ -1,17 +1,17 @@
 {
 	"sadul" : 
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : false,
                 "texts" :
 		{
-			"name" : "图尔萨多",
-			"biography" : "图尔萨多是一位古老的炼金术士，懂得很多神秘的魔法。",
+			"name" : "Toole Sadul",
+			"biography" : "Toole Sadul is a brilliant magician and alchemist, but sometimes his creations are strange, but that doesn't make them any less effective in battle.",
 			"specialty" :
 			{
-				"description" : "达到7级以后提高自走铁炮或自走钢炮的攻击力与防御力。",
-				"tooltip" : "生物强化：自走铁炮",
-				"name" : "自走铁炮"
+				"description" : "Increases the speed of Walkers or Bronze Walkers by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Walkers",
+				"name" : "Walkers"
 			}
 		},
 		"images" :
@@ -23,25 +23,17 @@
 		},
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			}
+			{ "skill" : "artillery", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
 		],
-		
-		"specialty": //Diplomacy
-		{
+		"specialty" : {
 			"creature" : "culv7"
-		}
+		}		
 	}
 }

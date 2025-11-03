@@ -1,17 +1,16 @@
 {
 	"zaxim" : 
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "扎西姆",
-			"biography" : "人们对扎西姆知之甚少。",
-			"specialty" :
-			{
-				"description" : "在外交术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：外交术",
-				"name" : "外交术"
+			"name" : "Zaxim",
+			"biography" : "Zaxim is a great traveler, and from one of his trips he brought back some strange chicks that later grew into beautiful birds, but he became a great leader to everyone, and that is why under his leadership all the dodos fight even more fiercely..",
+			"specialty" : {
+				"description" : "Increases the speed of Dodos or Martial Dodos by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"name" : "Dodos",
+				"tooltip" : "Creature Bonus: Dodos"
 			}
 		},
 		"images" :
@@ -23,36 +22,22 @@
 		},
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
 			}
 		],
-		
-		"specialty": //Diplomacy
-		{
-			"bonuses" : {
-				"join" : {
-					"type" : "WANDERING_CREATURES_JOIN_BONUS",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				},
-				"surrender" : {
-					"type" : "SURRENDER_DISCOUNT",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}		
-			}
-		}
+		"specialty" : {
+			"creature" : "culv5"
+		}		
 	}
 }

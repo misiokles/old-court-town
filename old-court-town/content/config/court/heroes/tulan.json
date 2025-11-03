@@ -1,18 +1,18 @@
 {
 	"tulan" :
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : false,
 		
 		"texts" :
 		{
-			"name" : "图兰",
-			"biography" : "人们对图兰知之甚少。",
+			"name" : "Tulan",
+			"biography" : "Tulan's innate gift for understanding animals works wonders in battle",
 			"specialty" :
 			{
-				"description" : "达到3级以后提高红猪或火猪的攻击力与防御力。",
-				"tooltip" : "生物强化：红猪",
-				"name" : "红猪"
+				"description" : "{Pigs and Fiery Pigs}\r\n\r\nIncreases the Attack and Defence of any Pigs or Fiery Pigs for each level attained after 3th level.",
+				"tooltip" : "Creature Bonus: Pigs",
+				"name" : "Pigs"
 			}
 		},
 		"images" :
@@ -22,11 +22,11 @@
 			"large" : "court/heroes/tulan/portrait-large.png",
 			"small" : "court/heroes/tulan/portrait-small.png"
 		},
-                "army" :
+        "army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
 		"skills" :
 		[

@@ -1,0 +1,48 @@
+{
+	"yuldra" : 
+	{
+		"class" : "sage",
+		"female" : true,
+        "texts" :
+		{
+			"name" : "Yuldra",
+			"biography" : "Yudra was always late for something, and when she discovered her talent as a magician, the first thing she did was perfect the haste spell.",
+			"specialty" : 
+			{
+				"description" : "{Haste}\r\n\r\nHero can cast the Haste spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "court/heroes/yuldra/spec-small.png",
+			"specialtyLarge" : "court/heroes/yuldra/spec-large.png",
+			"large" : "court/heroes/yuldra/portrait-large.png",
+			"small" : "court/heroes/yuldra/portrait-small.png"
+		},
+        "spellbook": [ "haste" ],
+		"army" :
+		[
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

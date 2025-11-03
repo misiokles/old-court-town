@@ -1,18 +1,18 @@
 {
 	"berok" :
 	{
-		"class" : "mentat",
+		"class" : "sage",
 		"female" : false,
 
 		"texts" :
 		{
-			"name" : "贝罗克",
-			"biography" : "人们对贝罗克知之甚少。",
+			"name" : "Berok",
+			"biography" : "Berok has a knack for handling precious stones, finding them even where many might pass by without noticing.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供1宝石。",
-				"tooltip" : "每天+1宝石",
-				"name" : "+1宝石"
+				"description" : "{Gems + 1}\r\n\r\nIncreases kingdom's income by 1 Gems per day",
+				"tooltip" : "+1 Gems each day",
+				"name" : "+1 Gems"
 			}
 		},
 		"images" :
@@ -23,26 +23,19 @@
 			"large" : "court/heroes/berok/portrait-large.png",
 			"small" : "court/heroes/berok/portrait-small.png"
 		},
+		"spellbook": [ "magicArrow" ],
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "leadership"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
 		],
-		
-		"specialty": //estate bonus
-		{
+		"specialty" : {
 			"bonuses" : {
 				"gems" : {
 					"subtype" : "resource.gems",

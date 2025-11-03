@@ -3,17 +3,17 @@
 	{
 		"name" :
 		{
-			"plural" : "战鹅",
-			"singular" : "战鹅"
+			"plural" : "Geese",
+			"singular" : "Goose"
 		},
 		"advMapAmount" :
 		{
 			"max" : 30,
-			"min" : 16
+			"min" : 12
 		},
 		"faction": "court",
-		"aiValue" : 255,
-		"fightValue" : 265,
+		"aiValue" : 127,
+		"fightValue" : 135,
 		"attack" : 6,
 		"defense" : 7,
 		"cost" :
@@ -66,44 +66,7 @@
 				"type" : "BLOCKS_RETALIATION"
 			}
 
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
-			}
-		]
+		}
 
 	}
 }

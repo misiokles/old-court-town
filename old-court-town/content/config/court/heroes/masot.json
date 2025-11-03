@@ -1,17 +1,17 @@
 {
 	"masot" : 
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sage",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "马索特",
-			"biography" : "人们对马索特知之甚少。",
+			"name" : "Masot",
+			"biography" : "Masot strives for new knowledge, because only by learning something new can one develop intelligence.",
 			"specialty" :
 			{
-				"description" : "在气系魔法上每级得到5%的额外伤害奖励。",
-				"tooltip" : "技能加成：气系魔法",
-				"name" : "气系魔法"
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"name" : "Intelligence"
 			}
 		},
 		"images" :
@@ -21,40 +21,20 @@
 			"large" : "court/heroes/masot/portrait-large.png",
 			"small" : "court/heroes/masot/portrait-small.png"
 		},
-		"spellbook" :
+		"spellbook": [ "viewEarth" ],
+        "army" :
 		[
-			"chainLightning"		
-                ],
-                "army" :
-		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "airMagic"
-			},
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
 		],
-		
-		"specialty": //Air Magic
-		{
-			"bonuses":
-			{
-				"airMagic": {
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "air",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val": 5
-				}
-			}
-		}
+		"specialty" : {
+			"secondary" : "intelligence"
+		}		
 	}
 }
-

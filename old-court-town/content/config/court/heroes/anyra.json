@@ -1,17 +1,17 @@
 {
 	"anyra" : 
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sage",
 		"female" : true,
 		"texts" :
 		{
-			"name" : "安尼拉",
-			"biography" : "人们对安尼拉知之甚少。",
+			"name" : "Anyra",
+			"biography" : "Anira has keen eyesight and an understanding of magic: nothing escapes her eyes.",
 			"specialty" :
 			{
-				"description" : "在水系魔法上每级得到5%的额外伤害奖励。",
-				"tooltip" : "技能加成：水系魔法",
-				"name" : "水系魔法"
+				"description" : "{Eagl Eye}\r\n\r\nReceives a 5% per level bonus to Eagl eEye skill.",
+				"tooltip" : "Secondary Skill Bonus: Eagl Eye",
+				"name" : "Eagl Eye"
 			}
 		},
 		"images" :
@@ -23,34 +23,18 @@
 		},
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-
-		"skills" :
+        "spellbook": [ "protectAir" ],
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "waterMagic"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "eagleEye", "level": "basic" }
 		],
-		
-		"specialty": //waterMagic
-		{
-			"bonuses":
-			{
-				"waterMagic": {
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "water",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val": 5
-				}
-			}
-		}
+		"specialty" : {
+			"secondary" : "eagleEye"
+		}		
 	}
 }

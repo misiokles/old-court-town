@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "女伯爵",
-			"singular" : "女伯爵"
+			"plural" : "Countesses",
+			"singular" : "Countess"
 		},
 		"advMapAmount" :
 		{
@@ -12,7 +12,7 @@
 			"min" : 10
 		},
 		"faction" : "court",
-		"aiValue" : 728,
+		"aiValue" : 1001,
 		"attack" : 12,
 		"hasDoubleWeek" : true,
                 "cost" : 
@@ -25,11 +25,11 @@
 			"min" : 7
 		},
 		"defense" : 9,
-		"fightValue" : 1091,
+		"fightValue" : 990,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv4up.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv4upmap.def",
 			"iconSmall" : "court/iconsSmall/lv4ups.bmp",
 			"iconLarge" : "court/iconsBig/lv4upb.bmp",
@@ -64,84 +64,25 @@
 			"wince": "MONKWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
+		"abilities": 
 		{
-                     "canshoot" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
 			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
-		        },
+			},
+			"noWallPenalty" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
 			"reduceSpellCost" : 
 			{
 				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
 				"val" :  2
-
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			},
-			{
-				"bonus" : 
-				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.weakness", 
-					"type" : "SPELL_AFTER_ATTACK" 
-				},
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
-			},
-			{
-				"bonus" : 
-				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.disruptingRay", 
-					"type" : "SPELL_AFTER_ATTACK" 
-				},
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
-			}
-		]
+		}
 	}
 }

@@ -1,17 +1,17 @@
 {
 	"leltes" :
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "列特斯",
-			"biography" : "人们对列特斯知之甚少。",
+			"name" : "Leltes",
+			"biography" : "Leltes is a seasoned warrior who has fought in many battles and is convinced that good armor is the key to survival.",
 			"specialty" :
 			{
-				"description" : "在防御术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：防御术",
-				"name" : "防御术"
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
 			}
 		},
 		"images" :
@@ -23,9 +23,9 @@
 		},
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
 		"skills" : [
 			{
@@ -37,19 +37,8 @@
 				"skill" : "tactics"
 			}
 		],
-		
-		"specialty": //defense bonus
-		{
-			"bonuses" : {
-				"armorer" : {
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
-		}
+		"specialty" : {
+			"secondary" : "armorer"
+		}		
 	}
 }

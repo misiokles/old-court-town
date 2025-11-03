@@ -3,17 +3,17 @@
 	{
 		"name" :
 		{
-			"plural" : "皇家战鹅",
-			"singular" : "皇家战鹅"
+			"plural" : "Royal Geese",
+			"singular" : "Royal Goose"
 		},
 		"advMapAmount" :
 		{
 			"max" : 25,
-			"min" : 16
+			"min" : 12
 		},
 		"faction": "court",
-		"aiValue" : 275,
-		"fightValue" : 285,
+		"aiValue" : 205,
+		"fightValue" : 182,
 		"attack" : 7,
 		"defense" : 7,
 		"cost" :
@@ -64,43 +64,6 @@
 			{
 				"type" : "FLYING"
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
-			}
-		]				
+		}				
 	}
 }

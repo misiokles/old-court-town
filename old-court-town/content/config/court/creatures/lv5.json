@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "渡渡鸟",
-			"singular" : "渡渡鸟"
+			"plural" : "Dodos",
+			"singular" : "Dodo"
 		},
 		"advMapAmount" :
 		{
@@ -12,8 +12,8 @@
 			"min" : 8
 		},
 		"faction" : "court",
-		"aiValue" : 904,
-		"attack" : 9,
+		"aiValue" : 903,
+		"attack" : 10,
 		"cost" :
 		{
 			"gold" : 400
@@ -21,14 +21,14 @@
 		"damage" :
 		{
 			"max" : 12,
-			"min" : 10
+			"min" : 6
 		},
-		"defense" :9,
-		"fightValue" : 889,
+		"defense" :12,
+		"fightValue" : 888,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv5.DEF",
-                        "animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+                        "animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv5map.def",
 			"iconSmall" : "court/iconsSmall/lv5s.bmp",
 			"iconLarge" : "court/iconsBig/lv5b.bmp",
@@ -50,72 +50,20 @@
 			"move": "YBMHMOVE.wav",
 			"wince": "YBMHWNCE.wav"
 		},
-		"speed" : 7,
+		"speed" : 6,
 		"abilities" : {
-			"slayer" : {
-			"type" : "ENCHANTED",
-			"subtype" : "spell.slayer",
-			"val" : 3
-			},
 			"fearless" : {
-			"type" : "FEARLESS",
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
-			"damageReduction1" : {
+			"damageReduction2" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeMelee",
+			"subtype" : 1,
 			"val" : 25
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 2, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "MAGIC_MIRROR"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}
-		]
+		}
 	}
 }

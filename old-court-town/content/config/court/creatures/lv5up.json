@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "披甲巨鸟",
-			"singular" : "披甲巨鸟"
+			"plural" : "Martial Dodos",
+			"singular" : "Martial Dodo"
 		},
 		"advMapAmount" :
 		{
@@ -23,12 +23,12 @@
 			"max" : 12,
 			"min" : 6
 		},
-		"defense" : 10,
+		"defense" : 13,
 		"fightValue" : 1171,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv5up.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv5upmap.def",
 			"iconSmall" : "court/iconsSmall/lv5ups.bmp",
 			"iconLarge" : "court/iconsBig/lv5upb.bmp",
@@ -49,83 +49,23 @@
 		},
 		"speed" : 7,
 		"abilities" : {
-			"slayer" : {
-			"type" : "ENCHANTED",
-			"subtype" : "spell.slayer",
-			"val" : 3
-			},
 			"fearless" : {
-			"type" : "FEARLESS",
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "courtyard/icons/bonuses/e_fearl.png"
 			},
 			"damageReduction1" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeMelee",
+			"subtype" : 0,
 			"val" : 25
 			},
 			"damageReduction2" : {
 			"type" : "GENERAL_DAMAGE_REDUCTION",
-			"subtype" : "damageTypeRanged",
+			"subtype" : 1,
 			"val" : 25
 			}
-		},
-		"stackExperience" : 
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "SPELL_RESISTANCE_AURA"
-				},
-				"values" : [ 20, 20, 20, 25, 25, 30, 30, 35, 40, 40 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeMelee"
-				},
-				"values" : [ 5, 5, 10, 10, 10, 15, 15, 20, 20, 25 ]
-			}
-		]
+		}
 	}
 }

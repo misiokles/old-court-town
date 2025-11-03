@@ -1,0 +1,77 @@
+{
+	"core:rock" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"jungle_rocks0" : { "animation" : "jungle/decorations/rocks/FSWD0003",  
+						"mask" : [ "VB", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"jungle_rocks1" : { "animation" : "jungle/decorations/rocks/FSWD0004",  
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"jungle_rocks2" : { "animation" : "jungle/decorations/rocks/FSWD0012",  
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"jungle_rocks3" : { "animation" : "jungle/decorations/rocks/FSWD0013",  
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"jungle_rocks4" : { "animation" : "jungle/decorations/rocks/FSWD0014",  
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"jungle_rocks5" : { "animation" : "jungle/decorations/rocks/FSWD0015",  
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"jungle_rocks6" : { "animation" : "jungle/decorations/rocks/FSWD0016",  
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"jungle_rocks7" : { "animation" : "jungle/decorations/rocks/FSWD0017",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	 },
+					"jungle_rocks8" : { "animation" : "jungle/decorations/rocks/FSWD0018",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks9" : { "animation" : "jungle/decorations/rocks/FSWD0019",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks10" : { "animation" : "jungle/decorations/rocks/FSWD0020",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks11" : { "animation" : "jungle/decorations/rocks/FSWD0021",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks12" : { "animation" : "jungle/decorations/rocks/FSWD0022",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks13" : { "animation" : "jungle/decorations/rocks/FSWD0023",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks14" : { "animation" : "jungle/decorations/rocks/FSWD0024",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	},
+					"jungle_rocks15" : { "animation" : "jungle/decorations/rocks/FSWD0025",  
+						"mask" : ["VB"],
+						"allowedTerrains": [ "jungle" ]
+			    	}
+				}
+			}
+		}
+	}
+}
+
+
+	

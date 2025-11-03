@@ -1,0 +1,76 @@
+{
+           "ancientTemple" : {
+           "name" : "Ancient Temple",
+            "handler" : "configurable",
+               "base" : {
+                "sounds" : {
+                 "visit" : ["GAZEBO"]
+                    },
+                     "rmg": {
+                     "zoneLimit": 1,
+                     "value": 1000,
+                      "rarity": 50
+                      },
+ 
+				"rewards": [ {
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 0,
+							"max" : 50
+						},
+
+						"limiter": {
+							//"numOfGrants" : 1
+						},
+						"secondary": [{
+							  "pathfinding" : 1
+						}],
+				"onSelectMessage" : "{Ancient Temple}\n\nYou find your way into ancient temple, cutting through web and vines. At the main hall you realise that your struggling helped you to gain knowledge of Pathfinding.",
+						"selectChance" : 100
+					},
+		 {
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 51,
+							"max" : 101
+						},
+
+						"limiter": {
+							//"numOfGrants" : 1
+						},
+						"secondary": [{
+							  "scouting" : 1
+						}],
+				"onSelectMessage" : "{Ancient Temple}\n\nYou find your way into ancient temple, cutting through web and vines. At the main hall you realise that your struggling helped you to gain knowledge of Scouting.",
+						"selectChance" : 100
+					}
+				],
+
+				"canRefuse": false,
+				"visitMode" : "hero",
+				"selectMode" : "selectFirst",
+				//"resetDuration" : 0, 
+                "onVisitedMessage" : "{Ancient Temple}\n\nYou find your way into ancient temple, but this doesn't help you with anything.",
+				"onSelectMessage" : "{Ancient Temple}\n\nYou find your way into ancient temple, cutting through web and vines. At the main hall you realise that your struggling helped you to gain knowledge.",
+                "onEmptyMessage" : "{Ancient Temple}\n\nYou again find your way into ancient temple, but this doesn't help you with anything.",
+
+                       },
+                       "types": {
+                       "object": {
+                       "name" : "Ancient Temple",
+                       "templates": {
+                       "ancientTemple": {
+                       "animation" : "jungle/objects/ancientTemple/ancientTemple",
+                       "mask" : [ "VBB", "VAB" ],
+                       "visitableFrom" : [ "---", "-+-", "+++" ],
+                       "allowedTerrains": [ "jungle" ]
+                      }},
+
+
+
+
+                   }
+                 }
+}}

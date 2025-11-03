@@ -3,17 +3,17 @@
 	{
 		"name" :
 		{
-			"plural" : "异鸟像",
-			"singular" : "异鸟像"
+			"plural" : "Sculptures",
+			"singular" : "Sculpture"
 		},
 		"advMapAmount" :
 		{
-			"max" : 12,
-			"min" : 5
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "court",
-		"aiValue" : 2212,
-		"attack" : 16,
+		"aiValue" : 1840,
+		"attack" : 15,
 		"cost" :
 		{
 			"gold" : 1100
@@ -22,14 +22,14 @@
 		"damage" :
 		{
 			"max" : 20,
-			"min" : 20
+			"min" : 15
 		},
-		"defense" : 13,
-		"fightValue" : 1952,
+		"defense" : 15,
+		"fightValue" : 1654,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv6.DEF",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv6map.def",
 			"iconSmall" : "court/iconsSmall/lv6s.bmp",
 			"iconLarge" : "court/iconsBig/lv6b.bmp",
@@ -58,54 +58,19 @@
 			{
 				"type" : "NON_LIVING"
 			},
-		"nomorale" :
-			{
-				"type" : "NO_MORALE"
-			},
 		"acidBreath" :
 			{
 				"type" : "ACID_BREATH",
-				"val" : 2,
-				"addInfo" : 10
-			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"val" : 10,
+				"addInfo" : 30
 			},
+			"reduceDefence" :
 			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 20
 			}
-		]
+		}
 	}
 }
 

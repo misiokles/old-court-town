@@ -1,0 +1,116 @@
+// Defines battle obstacles. We have two vectors of them:
+// * "obstacles" are usual obtacles, that are randomly placed in the battlefield.
+// * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
+//
+// Their properties:
+// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
+// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored. 
+// * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
+// * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
+// * "height" for usual obstacles it's count of tiles that must be free to the top for obstacle to be placed. For absolute obstacles, it's y offset for the graphics.
+// * "animation" is name of the graphics. It's def file for usual obstacles and bitmap for the absolute ones.
+
+{
+	"19":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 2,
+		"height" : 1,
+		"blockedTiles" :  [0, 1],
+		"animation" : "ObGLg01.def",
+		"absolute" : false
+	},
+	"21":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 1,
+		"height" : 1,
+		"blockedTiles" :  [0],
+		"animation" : "ObGSt01.def",
+		"absolute" : false
+	},
+	"34":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0],
+		"animation" : "ObSwS01.def",
+		"foreground" : true,
+		"absolute" : false
+	},
+	"35":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 8,
+		"height" : 3,
+		"blockedTiles" :  [-10, -11, -12, -13, -14, -15, -16],
+		"animation" : "ObSwS02.def",
+		"absolute" : false
+	},
+	"36":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 2,
+		"height" : 1,
+		"blockedTiles" :  [0, 1],
+		"animation" : "ObSwS03.def",
+		"foreground" : true,
+		"absolute" : false
+	},
+	"37":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 3,
+		"height" : 1,
+		"blockedTiles" :  [0, 1, 2],
+		"animation" : "ObSwS04.def",
+		"foreground" : true,
+		"absolute" : false
+	},
+	"38":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 5,
+		"height" : 4,
+		"blockedTiles" :  [-13, -14, -15, -16, -30, -31, -32, -33],
+		"animation" : "ObSwS11b.def",
+		"absolute" : false
+	},
+	"39":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 4,
+		"height" : 3,
+		"blockedTiles" :  [-16, -17, -31, -32, -33, -34],
+		"animation" : "ObSwS13a.def",
+		"absolute" : false
+	},
+	"109":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 300,
+		"height" : 170,
+		"blockedTiles" :  [40, 41, 58, 59, 74, 75, 92, 93, 109, 110, 111, 127, 128, 129, 130],
+		"animation" : "ObSwL15.pcx",
+		"absolute" : true
+	},
+	"110":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 278,
+		"height" : 171,
+		"blockedTiles" :  [43, 60, 61, 77, 93, 94, 95, 109, 110, 126, 127],
+		"animation" : "ObSwL14.pcx",
+		"absolute" : true
+	},
+	"111":
+	{
+		"allowedTerrains" : ["jungle"],
+		"width" : 256,
+		"height" : 254,
+		"blockedTiles" :  [74, 75, 76, 77, 91, 92, 93, 94, 95, 109, 110, 111, 112],
+		"animation" : "ObSwL22.pcx",
+		"absolute" : true
+	}
+}

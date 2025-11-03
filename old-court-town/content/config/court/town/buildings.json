@@ -7,20 +7,19 @@
 			{
 				"mageGuild1" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "1级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
 					"cost" :
 					{
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "2级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
 					"cost" :
 					{
 						"wood" : 5,
@@ -31,13 +30,12 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					"id" : 1,
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "3级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
 					"cost" :
 					{
 						"wood" : 5,
@@ -48,13 +46,12 @@
 						"gems" : 6,
 						"gold" : 1000
 					},
-					"id" : 2,
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
+				"mageGuild4" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "4级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
 					"cost" :
 					{
 						"wood" : 5,
@@ -65,13 +62,12 @@
 						"gems" : 8,
 						"gold" : 1000
 					},
-					"id" : 3,
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "5级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
 					"cost" :
 					{
 						"wood" : 5,
@@ -82,286 +78,260 @@
 						"gems" : 10,
 						"gold" : 1000
 					},
-					"id" : 4,
 					"upgrades" : "mageGuild4"
-				},
+				},	
 				"tavern" :
 				{
-					"name" : "酒馆",
-					"description" : "酒馆可提高驻军的士气。",
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"shipyard" :
 				{
-					"name" : "船坞",
-					"description" : "船坞允许你购买船只。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" :
 					{
 						"wood" : 20,
 						"gold" : 2000
-					},
-					"id" : 6
+					}
 				},
 				"fort" :
 				{
-					"name" : "堡垒",
-					"description" : "堡垒可为你的城镇提供城墙。",
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" :
 					{
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
-					"name" : "大本营",
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 2500
 					},
-					"id" : 8,
 					"upgrades" : "fort"
 				},
 				"castle" :
 				{
-					"name" : "城堡",
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" :
 					{
+						"gold" : 5000,
 						"wood" : 10,
-						"ore" : 10,
-						"gold" : 5000
+						"ore" : 10
 					},
-					"id" : 9,
 					"upgrades" : "citadel"
 				},
 				"villageHall" :
 				{
-					"name" : "议事堂",
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
-					"id" : 10,
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "内政厅",
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" :
 					{
 						"gold" : 2500
 					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
+					"requires" : [ "allOf",["tavern"] ],
 					"upgrades" : "villageHall"
 				},
 				"cityHall" :
 				{
-					"name" : "议会",
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" :
 					{
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"id" : 12,
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
 					"upgrades" : "townHall"
 				},
 				"capitol" :
 				{
-					"name" : "国会",
-					"description" : "国会每天向你提供4000个金币。",
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" :
 					{
 						"gold" : 10000
 					},
-					"id" : 13,
-					"requires" : [ "castle" ],
+					"requires" : ["castle"] ,
 					"upgrades" : "cityHall"
 				},
 				"marketplace" :
 				{
-					"name" : "市场",
-					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
-					"description" : "物资仓库每天为你额外提供1宝石。",
-					"name" : "物资仓库",
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "gems": 1 },
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"requires" : ["marketplace"],
+					"produce": { "gems": 1 }
 				},
 				"blacksmith" :
 				{
-					"description" : "铁匠铺可向你的军队提供魔能炮。",
-					"name" : "铁匠铺",
+					"description" : "The Blacksmith provides your armies with Heavy Crossbows.",
+					"name" : "Blacksmith",
+					"warMachine" : "ammoCart",
 					"cost" :
 					{
 						"wood" : 5,
-						"gold" : 1000
-					},
-					"warMachine" :  "felCannon",
-					"id" : 16
-				
+						"gold" : 500
+					}
 				},
 				"special3" :
 				{
-					"description" : "青春之泉使驻守或来访的英雄暂时拥有双倍的魔法值。",
-					"name" : "青春之泉",
+					"description" : "The Fountain of Youth increase spellpower of visiting hero by +1.",
+					"name" : "Fountain of Youth",
 					"cost" : {
 						"gold" : 1000
 						
 					},
 					"configuration" : {
-						"resetParameters" : {
-							"period" : 7,
-							"visitors" : true
-						},
-						"visitMode" : "once", 
+						"visitMode" : "hero",
 						"rewards" : [
 							{
-								"limiter" : {
-									"noneOf" : [ { "manaPercentage" : 200 } ]
-								},
-								"message" : "@core.genrltxt.579",
-								"manaPercentage" : 200
+								"message" : "The Fountain of Youth teach you new ways to focus your magical powers (+1 spellpower)",
+								"primary" : { "spellpower" : 1 }
 							}
 						]
 					},
-					"requires" : [ "mageGuild1" ],
-					"id" : 22,
+					"requires" : ["mageGuild1"]
 					
 				},
 				"ship" :
 				{
-					"name" : "船只",
-					"description" : "船员们正在等待起航。",
-
-					"id" : 20
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships."
 				},
 				"special1" :
 				{
-					"description" : "只需支付少量费用，你就可以从宝物商店购买宝物。并且允许出售宝物。",
-					"name" : "宝物商店",
-					"marketModes" : ["resource-artifact", "artifact-resource"],
-					"cost" : {
-						"gold" : 5000
+					"description" : "For a nominal fee you can purchase artifacts from the Artifact Merchants.",
+					"name" : "Artifact Merchant",
+					"cost" : 
+					{
+						"gold" : 10000
 					},
-					"requires" : [ "resourceSilo" ],
-					"id" : 17
+					"marketModes" : ["resource-artifact", "artifact-resource"],
+					"requires" : [ "marketplace" ]
 				},
 				"special2" :
 				{
-					"description" : "档案馆使每个来访英雄的知识+1。",
-					"name" : "档案馆",
+					"description" : "The Magic Archive increases gives an additional spell in the mages guild.",
+					"name" : "Magic Archive",
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
 					},
-					"configuration" : {
-						"visitMode" : "hero",
-						"rewards" : [
-							{
-								"message" : "@core.genrltxt.581",
-								"primary" : { "knowledge" : 1 }
-							}
-						]
-					},
 					"requires" : [ "mageGuild1" ],
-					"id" : 21
+					"type" : "library"
 				},
 				"horde1" :
 				{
-					"description" : "古树使战鹅和皇家战鹅的周产量+4。",
-					"name" : "古树",
+					"description" : "The Ancient Tree increases weekly production of Geese by 4 per week.",
+					"name" : "Ancient Tree",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
 					"upgrades" : "dwellingLvl2"
 				},
 				"horde1Upgr" :
 				{
-					"description" : "古树使战鹅和皇家战鹅的周产量+4。",
-					"name" : "古树",
+					"description" : "The Ancient Tree increases weekly production of Royal Geese by 4 per week.",
+					"name" : "Ancient Tree",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 19,
 					"upgrades" : "dwellingUpLvl2",
 					"requires" : [ "horde1" ],
 					"mode" : "auto"
 				},
 				"grail" :
 				{
-					"description" : "天空之城使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，并使所有的已方英雄幸运值+2。",
-					"name" : "天空之城",
-					"id" : 26,
-					"produce": { "gold": 5000 },
-					"bonuses" : [ { "type" : "LUCK", "val" : 2, "propagator" : "PLAYER_PROPAGATOR" } ],
+					"description" : "The Fiery Palace brings 5000 gold to the kingdom's treasury daily, increases the growth of creatures in the castle by 50%, gives the hero the ability to fly, and increases the magical power of each hero by +10.",
+                    "name" : "Fiery Palace",
+                    "bonuses" : [
+						{
+							"type" : "FLYING_MOVEMENT",
+							"val" : 0,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER_PROPAGATOR"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.spellpower",
+							"val" : 10,
+							"propagator" : "PLAYER_PROPAGATOR"
+						}
+					],
 					"mode" : "grail"
 				},
-				"extraTownHall":  {"description": "暂无效果", "name": "第二内政厅", "id" : 27, "requires" : [ "townHall" ], "mode" : "auto" },
-				"extraCityHall":  {"description": "暂无效果", "name": "第二议会", "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto" },
-				"extraCapitol":   {"description": "暂无效果", "name": "第二国会", "id" : 29, "requires" : [ "capitol" ], "mode" : "auto" },
+				"extraTownHall":  { "requires" : [ "townHall" ], "mode" : "auto" },
+				"extraCityHall":  { "requires" : [ "cityHall" ], "mode" : "auto" },
+				"extraCapitol":   { "requires" : [ "capitol" ], "mode" : "auto" },
 				"dwellingLvl1" :
 				{
-					"description" : "植物园允许你招募曼德拉草。",
-					"name" : "植物园",
+					"description" : "The Botanical Garden allows to recruit Mandrakes.",
+					"name" : "Botanical Garden",
 					"cost" : {
 						"gold" : 500,
 						"ore" : 5,
 					},
-					"requires" : [ "fort" ],
-					"id" : 30
+					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "奇树允许你招募战鹅。",
-					"name" : "奇树",
+					"description" : "The Tree allows to recruit Geese.",
+					"name" : "Tree",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
 					},
-					"requires" : [ "fort" ],
-					"id" : 31
+					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "兽栏允许你招募红猪。",
-					"name" : "兽栏",
+					"description" : "The Corral allows to recruit Pigs.",
+					"name" : "Corral",
 					"cost" : {
 						"gold" : 1250,
 						"wood" : 5,
 						"mercury" : 3
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ] ],
-					"id" : 32
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ] ]
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "殿堂允许你招募女男爵。",
-					"name" : "殿堂",
+					"description" : "The Palace allows to recruit Baronesses.",
+					"name" : "Palace",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -369,24 +339,22 @@
 						"gems" : 4,
 						"sulfur" : 2
 						},
-					"requires" : [ "allOf", [ "dwellingLvl2" ], ["tavern"], [ "blacksmith" ] ],
-					"id" : 33
+					"requires" : [ "allOf", [ "dwellingLvl2" ], ["tavern"], [ "blacksmith" ] ]
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "巢穴允许你招募渡渡鸟。",
-					"name" : "巢穴",
+					"description" : "The Nest allows to recruit Dodos.",
+					"name" : "Nest",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 15
 					},
-					"requires" : [ "dwellingLvl3" ],
-					"id" : 34
+					"requires" : [ "dwellingLvl3" ]
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "炼金实验室允许你招募异鸟像。",
-					"name" : "炼金实验室",
+					"description" : "The Workshop allows to recruit Sculptures.",
+					"name" : "Workshop",
 					"cost" : {
 						"gold" : 4500,
 						"ore" : 5,
@@ -394,124 +362,115 @@
 						"sulfur" : 4,
 						"gems" : 2
 					},
-					"requires" : [ "allOf", [ "dwellingLvl4" ], ["mageGuild1"] ],
-					"id" : 35
+					"requires" : [ "allOf", [ "dwellingLvl4" ], ["mageGuild1"] ]
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "炼金工厂允许你招募自走铁炮。",
-					"name" : "炼金工厂",
+					"description" : "The Alchemical Factory allows to recruit Sculptures.",
+					"name" : "Alchemical Factory",
 					"cost" : {
 						"gold" : 7500,
-						"wood" : 10,
 						"ore" : 10,
 						"sulfur" : 5,
 						"crystal" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl5" ], ["dwellingLvl6"] ],
-					"id" : 36
+					"requires" : [ "allOf", [ "dwellingLvl5" ], ["dwellingLvl6"] ]
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "高级植物园允许你招募曼德拉精。",
-					"name" : "高级植物园",
+					"description" : "The Botanical Garden to recruit Ferocious Mandrakes.",
+					"name" : "Upg. Botanical Garden",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10,
 						"ore" : 5
 					},
-					"id" : 37,
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "高级奇树允许你招募皇家战鹅。",
-					"name" : "高级奇树",
+					"description" : "The Tree allows to recruit Royal Geese",
+					"name" : "Upg. Tree",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5,
 						"wood" : 5
 					},
-					"id" : 38,
 					"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "高级兽栏允许你招募火猪。",
-					"name" : "高级兽栏",
+					"description" : "The Corral allows to recruit Fiery Pigs.",
+					"name" : "Upg. Corral",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10,
 						"crystal" : 5
 					},
-					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "高级殿堂允许你招募女伯爵。",
-					"name" : "高级殿堂",
+					"description" : "The Palace allows to recruit Countesses.",
+					"name" : "Upg. Palace",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
 						"sulfur" : 5
 					},
-					"id" : 40,
 					"requires" : [ "dwellingUpLvl2" ],
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "高级巢穴允许你招募披甲巨鸟。",
-					"name" : "高级巢穴",
+					"description" : "The Nest allows to recruit Martial Dodos.",
+					"name" : "Upg. Nest",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 10,
 						"gems" : 5
 					},
-					"id" : 41,
 					"requires" : [ "allOf", [ "blacksmith" ], [ "dwellingUpLvl4"] ],
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "高级炼金实验室允许你招募三首异鸟像。",
-					"name" : "高级炼金实验室",
+					"description" : "The Workshop allows to recruit Sculpture Guards.",
+					"name" : "Upg. Workshop",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 10,
 						"mercury" : 10
 					},
-					"id" : 42,
 					"requires" : [ "allOf", [ "dwellingUpLvl3" ], ["cityHall"] ],
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "高级炼金工厂允许你招募自走钢炮。",
-					"name" : "高级炼金工厂",
+					"description" : "The Alchemical Factory allows to recruit Sculpture Guards.",
+					"name" : "Upg. Alchemical Factory",
 					"cost" : {
-						"gold" : 20000,
+						"gems" : 15,
+						"gold" : 15000,
 						"ore" : 5,
-						"wood" : 5,
-						"sulfur" : 15
+						"sulfur" : 15,
+						"wood" : 5
 					},
-					"id" : 43,
 					"requires" : [ "allOf", [ "dwellingUpLvl6" ], [ "dwellingUpLvl4" ], ["citadel"] ],
 					"upgrades" : "dwellingLvl7"
 				},
 				"dwellingUp2Lvl7" :
 				{
-					"description" : "超级炼金工厂允许你招募自走铜炮。",
-					"name" : "超级炼金工厂",
+					"description" : "The Alchemical Factory allows to recruit Sculpture Guards.",
+					"name" : "Upg. Alchemical Factory",
 					"cost" : {
-						"gold" : 25000,
+						"gems" : 15,
+						"gold" : 20000,
 						"ore" : 5,
-						"wood" : 5,
-						"sulfur" : 15
+						"sulfur" : 15,
+						"wood" : 5
 					},
-					"id" : 50,
 					"requires" : [ "allOf", [ "dwellingUpLvl6" ], [ "dwellingUpLvl4" ], ["castle"] ],
 					"upgrades" : "dwellingUpLvl7"
 				}

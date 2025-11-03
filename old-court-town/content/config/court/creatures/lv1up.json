@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "曼德拉精",
-			"singular" : "曼德拉精"
+			"plural" : "Ferocious Mandrakes",
+			"singular" : "Fierce Mandrake"
 		},
 		"advMapAmount" :
 		{
@@ -12,12 +12,12 @@
 			"min" : 20
 		},
 		"faction" : "court",
-		"aiValue" : 198,
-		"attack" : 4,
+		"aiValue" : 110,
+		"attack" : 6,
 		"hasDoubleWeek" : true,
-                "cost" :
+        "cost" :
 		{
-			"gold" : 70
+			"gold" : 75
 		},
 		"damage" :
 		{
@@ -25,11 +25,11 @@
 			"min" : 1
 		},
 		"defense" : 5,
-		"fightValue" : 160,
+		"fightValue" : 110,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv1up.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv1upmap.def",
 			"iconSmall" : "court/iconsSmall/lv1ups.bmp",
 			"iconLarge" : "court/iconsBig/lv1upb.bmp",
@@ -37,9 +37,9 @@
 
 			},
 
-                "growth" : 15,
-		"hitPoints" : 10,
-                "level" : 1,
+        "growth" : 15,
+		"hitPoints" : 8,
+        "level" : 1,
 		"sound" :
 		{
 			"attack": "ITRGATTK.wav",
@@ -49,53 +49,21 @@
 			"wince": "ITRGWNCE.wav"
            
 		},
-		"speed" : 8,
-		"abilities" :
+		"speed" : 5,
+		"abilities":
 		{
-		 "poisonous" : {
-				"addInfo" : 0,
-				"subtype" : "spell.poison",
+		"binds" :
+			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"val" : 50
-			
-			}
+				"subtype" : "spell.bind",
+				"val" : 15
 		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin", //min
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax", //max
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+		 "spellPoison" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "poison",
+				"val" : 25,
+				"addInfo" : [1,1]
 			}
-		]
+		}
 	}
 }

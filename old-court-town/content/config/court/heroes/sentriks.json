@@ -1,19 +1,19 @@
 {
 	"sentriks" :
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : false,
 
 		
 		"texts" :
 		{
-			"name" : "森翠克",
-			"biography" : "森翠克在学术上造诣非凡，可以指出皇家炼金术士的错误。",
+			"name" : "Sentriks",
+			"biography" : "Sentriks was the first golem to gain sentience and fight for the golem cause, but was subsequently misunderstood by his fellow tribesmen and left Bracada in search of a better life..",
 			"specialty" :
 			{
-				"description" : "达到6级以后提高异鸟像或三首异鸟像的攻击力与防御力。",
-				"tooltip" : "生物强化：异鸟像",
-				"name" : "异鸟像"
+				"description" : "{Sculptures and Sculpture Guards}\r\n\r\nIncreases the Attack and Defence of any Sculptures or Sculpture Guards for each level attained after 6th level.",
+				"tooltip" : "Increases the Attack and Defence of any Sculptures or Sculpture Guards for each level attained after 6th level.",
+				"name" : "Sculptures"
 			}
 		},
 		"images" :
@@ -23,20 +23,17 @@
 			"large" : "court/heroes/sentriks/portrait-large.png",
 			"small" : "court/heroes/sentriks/portrait-small.png"
 		},
-                "army" :
+        "army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "advanced",
-				"skill" : "scouting"
-			}
+			{ "skill" : "scouting", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
 		],
-		
 		"specialty" : {
 			"creature" : "culv6"
 		}		

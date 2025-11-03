@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "曼德拉草",
-			"singular" : "曼德拉草"
+			"plural" : "Mandrakes",
+			"singular" : "Mandrake"
 		},
 		"advMapAmount" :
 		{
@@ -12,8 +12,8 @@
 			"min" : 20
 		},
 		"faction" : "court",
-		"aiValue" : 80,
-		"attack" : 3,
+		"aiValue" : 75,
+		"attack" : 4,
 		"hasDoubleWeek" : true,
                 "cost" :
 		{
@@ -24,12 +24,12 @@
 			"max" : 3,
 			"min" : 1
 		},
-		"defense" : 4,
-		"fightValue" : 90,
+		"defense" : 5,
+		"fightValue" : 70,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv1.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv1map.def",
 			"iconSmall" : "court/iconsSmall/lv1s.bmp",
 			"iconLarge" : "court/iconsBig/lv1b.bmp",
@@ -38,8 +38,8 @@
 			},
 
 		"growth" : 15,
-		"hitPoints" : 8,
-              	"level" : 1,
+		"hitPoints" : 6,
+        "level" : 1,
 		"upgrades":
 		[
 			"culv1up"
@@ -52,53 +52,16 @@
 			"move": "ITRGMOVE.wav",
 			"wince": "ITRGWNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 4,
 		"abilities" :
 		{	
-                    "poisonous" : {
-				"addInfo" : 0,
-				"subtype" : "spell.poison",
+           "spellPoison" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"val" : 20
+				"subtype" : "poison",
+				"val" : 25,
+				"addInfo" : [1,1]
 			
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin", //min
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax", //max
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
-			}
-		]
+		}
 	}
 }

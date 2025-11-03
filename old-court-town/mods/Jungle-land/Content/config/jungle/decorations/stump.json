@@ -1,0 +1,40 @@
+{
+	"core:stump" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanStu01" : {
+						"animation" : "jungle/decorations/stump/junLanStu01",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanStu02" : {
+						"animation" : "jungle/decorations/stump/junLanStu02",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanStu03" : {
+						"animation" : "jungle/decorations/stump/junLanStu03",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanStu04" : {
+						"animation" : "jungle/decorations/stump/junLanStu04",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanStu05" : {
+						"animation" : "jungle/decorations/stump/junLanStu05",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanStu06" : {
+						"animation" : "jungle/decorations/stump/junLanStu06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					}
+				}
+			}
+		}
+	}
+}

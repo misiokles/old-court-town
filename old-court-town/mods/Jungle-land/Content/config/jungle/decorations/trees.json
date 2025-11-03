@@ -1,0 +1,108 @@
+{
+	"core:trees" :{
+		"types" : {		
+			"object" : {
+				"templates" : {
+					"jungleFSWG0045": {
+						"animation": "jungle/decorations/trees/FSWG0045",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0046": {
+						"animation": "jungle/decorations/trees/FSWG0046",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0047": {
+						"animation": "jungle/decorations/trees/FSWG0047",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0048": {
+						"animation": "jungle/decorations/trees/FSWG0048",
+						"mask": ["VVVV", "VBBB", "VBBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0049": {
+						"animation": "jungle/decorations/trees/FSWG0049",
+						"mask": ["VVVV", "VBBV", "VBBB", "VVBB"],
+                        "allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0050": {
+						"animation": "jungle/decorations/trees/FSWG0050",
+						"mask": ["VVVV", "VVBB", "VBBB", "VBBV"],
+                        "allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0088": {
+						"animation": "jungle/decorations/trees/FSWG0088",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0089": {
+						"animation": "jungle/decorations/trees/FSWG0089",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0090": {
+						"animation": "jungle/decorations/trees/FSWG0090",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0091": {
+						"animation": "jungle/decorations/trees/FSWG0091",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+                        "allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0092": {
+						"animation": "jungle/decorations/trees/FSWG0092",
+						"mask": ["VVVV", "VBBV", "VBBB", "VVBV"],
+						"allowedTerrains": ["jungle"]
+					},
+
+					"jungleFSWG0093": {
+						"animation": "jungle/decorations/trees/FSWG0093",
+						"mask": ["VVVVVV", "VVBBVV", "VBBVBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0094": {
+						"animation": "jungle/decorations/trees/FSWG0094",
+						"mask": ["VVVV", "VVBV", "VVBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0095": {
+						"animation": "jungle/decorations/trees/FSWG0095",
+						"mask": ["VVVV", "VBBV", "VBBB"],
+
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0096": {
+						"animation": "jungle/decorations/trees/FSWG0096",
+						"mask": ["VVV", "VBB", "VBB"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0097": {
+						"animation": "jungle/decorations/trees/FSWG0097",
+						"mask": ["VVVVVV", "VBBVBB", "VVBBBV"],
+						"allowedTerrains": ["jungle"]
+					},
+					"jungleFSWG0098": {
+						"animation": "jungle/decorations/trees/FSWG0098",
+						"mask": ["VVVV", "VBBV", "VBBB", "VVBB"],
+                       "allowedTerrains": ["jungle"]
+					},
+
+					"jungleFSWG0099": {
+						"animation": "jungle/decorations/trees/FSWG0099",
+						"mask": ["VVVV", "VVBB", "VBBB", "VBBV"],
+						"allowedTerrains": ["jungle"]
+					}
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

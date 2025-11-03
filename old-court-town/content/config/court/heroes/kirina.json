@@ -2,17 +2,17 @@
 	"kirina" : 
 	{
 
-		"class" : "courtPhilosopher",
+		"class" : "sage",
 		"female" : true,
 		"texts" :
 		{
-			"name" : "姬琳娜",
-			"biography" : "人们对姬琳娜知之甚少。",
+			"name" : "Kirina",
+			"biography" : "Kirina has a great talent for management, and under her leadership even the most run-down estate will quickly begin to bring in gold.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供350个金币。",
-				"tooltip" : "每天+350金币",
-				"name" : "+350个金币"
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"tooltip" : "+350 Gold",
+				"name" : "+350 Gold"
 			}
 		},
 		"images" :
@@ -27,11 +27,11 @@
 		[
 		       "viewEarth"
 		],
-               "army" :
+        "army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
 		"skills" :
 		[
@@ -44,9 +44,7 @@
 				"skill" : "estates"
 			}
 		],
-		
-		"specialty": //estates
-		{
+		"specialty" : {
 			"bonuses" : {
 				"gold" : {
 					"subtype" : "resource.gold",

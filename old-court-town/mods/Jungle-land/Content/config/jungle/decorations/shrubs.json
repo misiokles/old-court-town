@@ -1,0 +1,90 @@
+{
+	"core:shrub" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanShr01" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr01",
+						"mask" : [ "VVB", "VBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr02" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr02",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr03" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr03",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr04" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr04",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr05" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr05",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr06" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr06",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr07" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr07",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr08" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr08",
+						"mask" : [ "VB", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanShr09" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr09",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr10" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr10",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanShr11" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr11",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"junLanShr12" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr12",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"junLanShr13" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr13",
+						"mask" : [ "VBV", "VBV" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr14" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr14",
+						"mask" : [ "VBB", "VBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanShr15" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr15",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanShr16" : {
+						"animation" :  "jungle/decorations/shrubs/junLanShr16",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "jungle" ]
+					}												
+				}
+			}
+		}
+	}
+}

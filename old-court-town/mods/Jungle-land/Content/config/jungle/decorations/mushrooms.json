@@ -1,0 +1,70 @@
+{
+	"core:mushrooms" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanMus01" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus01",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					},
+
+					"junLanMus02" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus02",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					},
+
+					"junLanMus03" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus03",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					},
+
+					"junLanMus04" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus04",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					},
+
+					"junLanMus05" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus05",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					},
+
+					"junLanMus06" : {
+						"animation" : "jungle/decorations/mushrooms/junLanMus06",
+						"mask" : [
+							"VVVV",
+							"BBBB"
+						],
+						"allowedTerrains" : [
+							"jungle"
+						]
+					}
+				}
+			}
+		}
+	}
+}

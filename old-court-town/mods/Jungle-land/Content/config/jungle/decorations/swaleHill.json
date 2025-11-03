@@ -1,0 +1,72 @@
+{
+	"core:grassHills" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junHilLan01" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan01",
+						"mask" : [ "VV","BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan02" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan02",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan03" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan03",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan04" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan04",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan05" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan05",
+						"mask" : [ "BB","BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan06" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan06",
+						"mask" : [ "BB","BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan07" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan07",
+						"mask" : [ "BB","BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan08" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan08",
+						"mask" : [ "BB","BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan09" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan09",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan10" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan10",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan11" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan11",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junHilLan12" : {
+						"animation" : "jungle/decorations/swaleHill/junHilLan12",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "jungle" ]
+					 }
+				}
+			}
+		}	
+	}	
+}
+	
+	

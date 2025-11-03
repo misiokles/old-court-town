@@ -1,0 +1,84 @@
+{
+	"sage" :
+	{
+		"name" : "Sage",
+		"commander" : "cuThane",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "court/heroes/battlephilosopher",
+				"male"   : "court/heroes/battlephilosopher"
+			}
+		},
+		"mapObject" : { "templates" : { "default" : { "animation" : "court/heroes/mapphilosopher" } } },		
+		"faction" : "court",		
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack" : 1,
+			"defence" : 0,
+			"knowledge" : 1,
+			"spellpower" : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 5,
+			"defence"    : 15,
+			"spellpower" : 40,
+			"knowledge"  : 40
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"secondarySkills" : {
+			"airMagic" : 4,
+			"archery" : 1,
+			"armorer" : 2,
+			"artillery" : 3,
+			"ballistics" : 1,
+			"diplomacy" : 5,
+			"eagleEye" : 5,
+			"earthMagic" : 6,
+			"estates" : 5,
+			"fireMagic" : 7,
+			"intelligence" : 6,
+			"leadership" : 3,
+			"learning" : 5,
+			"logistics" : 1,
+			"luck" : 3,
+			"mysticism" : 7,
+			"navigation" : 2,
+			"necromancy" : 0,
+			"offence" : 3,
+			"pathfinding" : 1,
+			"resistance" : 2,
+			"scholar" : 8,
+			"scouting" : 0,
+			"sorcery" : 7,
+			"tactics" : 1,
+			"waterMagic" : 4,
+			"wisdom" : 9,
+			"firstAid" : 4
+		},
+		"defaultTavern" : 5,
+		
+		"tavern" :
+		{
+			"castle" : 5,
+			"conflux" : 7,
+			"court" : 8,
+			"dungeon" : 6,
+			"fortress" : 3,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 3,
+			"stronghold" : 2,
+			"tower" : 6
+		}
+	}
+}

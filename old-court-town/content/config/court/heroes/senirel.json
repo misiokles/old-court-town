@@ -1,17 +1,17 @@
 {
 	"senirel" : 
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sculptor",
 		"female" : true,
 		"texts" :
 		{
-			"name" : "森妮瑞尔",
-			"biography" : "很难说她是一个人还是一株植物，总之好好欣赏曼德拉草的嘶嚎吧。", 
+			"name" : "Senirel",
+			"biography" : "It's hard to tell if she's a human or a plant, but the mandrakes listen to her every word and take their cues from her..", 
 			"specialty" :
 			{
-				"description" : "达到1级以后提高曼德拉草或曼德拉精的攻击力与防御力。",
-				"tooltip" : "生物强化：曼德拉草",
-				"name" : "曼德拉草"
+				"description" : "{Mandrakes and Mandragorum}\r\n\r\nIncreases Speed of any Mandrakes or Mandragorum by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Mandrakes",
+				"name" : "Mandrakes"
 			}
 		},
 		"images" :
@@ -21,27 +21,16 @@
 			"large" : "court/heroes/senirel/portrait-large.png",
 			"small" : "court/heroes/senirel/portrait-small.png"
 		},
-
-		"spellbook" :
-		[
-			"magicArrow"
-		],
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv1", "min" : 12, "max" : 25 }
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "sorcery"
-			}
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
 		],
 		"specialty" : {
 			"creature" : "culv1"

@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "红桃皇后",
-			"singular" : "红桃皇后"
+			"plural" : "Queens",
+			"singular" : "Queen"
 		},
 		"advMapAmount" :
 		{
@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/lv5n.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "court/map/creatures/lv5nmap.def",
 			"iconSmall" : "court/iconsSmall/lv5ns.bmp",
 			"iconLarge" : "court/iconsBig/lv5nb.bmp",
@@ -64,93 +64,36 @@
 			"wince": "MONKWNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
+		"abilities": 
 		{
-                     "canshoot" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
 			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
-                        },
-		      "immuneToMind" : 
-			{
-				"type" : "MIND_IMMUNITY"
 			},
-			
-			"casts" :
+			"noWallPenalty" :
 			{
-				"type" : "CASTS",
-				"val" : 5
+				"type" : "NO_WALL_PENALTY"
 			},
-			"castSpeed" :
+			"astsHypnotize" : 
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.hypnotize"
+				"subtype" : "hypnotize",
+				"val" : 1,
+				"addInfo" : 100,
+				"turns" : 3
+			},
+			"castsCount" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 80
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			},
-			{
-				"bonus" : 
-				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.weakness", 
-					"type" : "SPELL_AFTER_ATTACK" 
-				},
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
-			},
-			{
-				"bonus" : 
-				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.disruptingRay", 
-					"type" : "SPELL_AFTER_ATTACK" 
-				},
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
-			}
-		]	
+		}
 	}
 }

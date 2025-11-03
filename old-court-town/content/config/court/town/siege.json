@@ -6,7 +6,7 @@
 			"siege" :
 			{
 				"shooter" : "culv4up",
-				"imagePrefix" : "court/siege/SgEl",
+				"imagePrefix"    : "court/siege/SgEl",
 				"towerIconSmall" : "court/icons/towerSmall",
 				"towerIconLarge" : "court/icons/towerLarge",
 				"gate" :

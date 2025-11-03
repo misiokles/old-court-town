@@ -1,0 +1,16 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"jungleHillFort" : {
+						"animation" : "jungle/objects/hillfort/AVXhiljun",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "VBA"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

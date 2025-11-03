@@ -1,17 +1,17 @@
 {
 	"don" :
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sculptor",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "唐米诺",
-			"biography" : "人们对唐米诺知之甚少。",
+			"name" : "Don Minor",
+			"biography" : "Don Minor is a very withdrawn person who trusts no one and prefers to spend his time with birds.t",
 			"specialty" :
 			{
-				"description" : "达到2级以后提高战鹅或皇家战鹅的攻击力与防御力。",
-				"tooltip" : "生物加成：战鹅",
-				"name" : "战鹅"
+				"description" : "{Geese and Royal Geese}\r\n\r\nIncreases Speed of any Geese or Royal Geese by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Geese",
+				"name" : "Geese"
 			}
 		}, 
 		"images" :
@@ -21,26 +21,21 @@
 			"large" : "court/heroes/don/portrait-large.png",
 			"small" : "court/heroes/don/portrait-small.png"
 		},
-
-		"spellbook" :
-		[
-			"haste"
-		],
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "armorer"
 			},
 			{
 				"level" : "basic",
-				"skill" : "airMagic"
+				"skill" : "resistance"
 			}
 		],
 		

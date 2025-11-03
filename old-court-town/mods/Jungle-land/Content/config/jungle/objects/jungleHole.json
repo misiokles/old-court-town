@@ -1,0 +1,16 @@
+{
+	"core:hole": {
+		"types": {
+			"object": {
+				"templates": {
+
+					"jungleHole": {
+						"animation": "jungle/objects/hole/Juhole",
+						"mask": ["V"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

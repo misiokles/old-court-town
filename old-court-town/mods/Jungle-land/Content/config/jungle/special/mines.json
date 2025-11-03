@@ -1,0 +1,78 @@
+{
+	"core:mine" : {
+		"types" : {
+			"sawmill" : {
+				"templates" : {
+					"jungleSawmill01" : {
+						"animation" : "jungle/special/mines/junLanSaw",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVVVV", "VBBBB", "VBBAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			},
+			"alchemistLab" : {
+				"templates" : {
+					"jungleLab01" : {
+						"animation" : "jungle/special/mines/junLanAlcLab",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "BAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			},
+			"orePit" : {
+				"templates" : {
+					"jungleOre01" : {
+						"animation" : "jungle/special/mines/junLanOrePit",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			},
+			"sulfurDune" : {
+				"templates" : {
+					"jungleSulfurDune01" : {
+						"animation" : "jungle/special/mines/junLanSulDun",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "BAB"],
+						"allowedTerrains" : ["jungle"
+						]
+					}
+				}
+			},
+			"crystalCavern" : {
+				"templates" : {
+					"jungleCrystalCavern01" : {
+						"animation" : "jungle/special/mines/junLanCryCav",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVVV","VVVV", "VBAB"],
+						"allowedTerrains" : ["jungle"
+						]
+					}
+				}
+			},
+			"gemPond" : {
+				"templates" : {
+					"jungleGempond01" : {
+						"animation" : "jungle/special/mines/junLanGenPon",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["BBB", "BAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates" : {
+					"jungleGoldmine01" : {
+						"animation" : "jungle/special/mines/junLanGolMin",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVVV","VVVV", "VBAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

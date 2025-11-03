@@ -8,8 +8,8 @@
 		},
 		"name" :
 		{
-			"plural" : "自走铜炮",
-			"singular" : "自走铜炮"
+			"plural" : "Bronze Walkers",
+			"singular" : "Bronze Walker"
 		},
 		"faction": "court",
 		"aiValue" : 9076,
@@ -19,12 +19,12 @@
 		"cost" :
 		{
 			"gold" : 3500,
-                        "gems" : 3
+            "gems" : 3
 		},
 		"damage" :
 		{
-			 "min" : 30,
-			 "max" : 40
+			"max" : 50,
+			"min" : 25
 		},
 		"speed" : 10,
 		"graphics" :
@@ -60,7 +60,7 @@
 		"doubleWide" : true,				
 		"growth" : 1,
 		"level" : 7,
-		"shots" : 32,		
+		"shots" : 18,		
 		"sound" :
 		{
 			"attack": "CYCLATTK.wav",
@@ -70,77 +70,30 @@
 			"shoot": "CYCLSHOT.wav",
 			"wince": "CYCLWNCE.wav"
 		},
-		"abilities" :
+		"abilities": 
 		{
-			"canShoot" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
-                       "immuneToMind" : 
-			{
-				"type" : "MIND_IMMUNITY"
-			},
-                        "noPenalty" :
+			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"nonliving":
-			{	
-				"type" : "NON_LIVING"
-			},
-		       "fireball" :
+			"noWallPenalty" :
 			{
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireball"
+				"type" : "NO_WALL_PENALTY"
+			},
+			"nonliving" : 
+			{
+				"type" : "NON_LIVING"
 			},
 			"deathStrike" :
 			{
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 20
 			}
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}
-		]
+		}
 	}
 }
+

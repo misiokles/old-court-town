@@ -1,81 +1,88 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"cuTree" : {
-				"name" : "植物园",
+			"cuGarden" : {
+				"name" : "Garden",
 				"creatures" : [[ "culv1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-1.def",
-						"mask" : [ "VBV", "BAB" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW1.def"
 			},
-			"cuGarden" : {
-				"name" : "奇树",
+			"cuTree" : {
+				"name" : "Tree",
 				"creatures" : [[ "culv2" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "BBB", "BAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW2.def"
 			},
-			"cuFoundry" : {
-				"name" : "兽栏",
+			"cuCorral" : {
+				"name" : "Corral",
 				"creatures" : [[ "culv3" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "court/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "ABB" ]
+						"mask" : [ "VVV", "VBB", "ABB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW3.def"
 			},
-			"cuAlchemyLab" : {
-				"name" : "殿堂",
+			"cuPalace" : {
+				"name" : "Palace",
 				"creatures" : [[ "culv4" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VBV", "BAB" ]
+						"mask" : [ "VVV", "BBB", "BAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW4.def"
 			},
-			"cuPalace" : {
-				"name" : "巢穴",
+			"cuNest" : {
+				"name" : "Nest",
 				"creatures" : [[ "culv5" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+						"mask" : [ "VBB", "VAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW5.def"
 			},
-			"cuAlchemicalFactory" : {
-				"name" : "炼金实验室",
+			"cuWorkshop" : {
+				"name" : "Workshop",
 				"creatures" : [[ "culv6" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVV", "BVV", "BAB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW6.def"
 			},
-			"cuCave" : {
-				"name" : "炼金工厂",
+			"cuAlchemicalFactory" : {
+				"name" : "The Alchemical Factory",
 				"creatures" : [[ "culv7" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "court/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVVV", "VVBV", "VBAB" ]
+						"mask" : [ "VVVV", "VVBB", "VVAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW7.def"
 			},
 			"cuCastle" : {
-				"name" : "城堡",
+				"name" : "Castle",
 				"creatures" : [[ "culv5net" ]],
 				"guards" : true,
 				"templates" : {
@@ -83,8 +90,9 @@
 						"animation" : "court/map/dwellings/dwelling-8.def",
 						"mask" : [ "VVV", "VBV", "BAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "court/map/dwellings/flagports/CourtDW8.def"
 			}
-		}		
+		}
 	}
 }

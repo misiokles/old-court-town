@@ -1,0 +1,84 @@
+{
+	"sculptor" :
+	{
+		"name" : "Sculptor",
+		"commander" : "cuThane",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "court/heroes/battleMentat",
+				"male"   : "court/heroes/battleMentat"
+			}
+		},
+		"mapObject" : { "templates" : { "default" : { "animation" : "court/heroes/mapMentat" } } },		
+		"affinity" : "might",		
+		"faction" : "court",
+		"primarySkills" :
+		{
+			"attack" : 2,
+			"defence" : 1,
+			"knowledge" : 1,
+			"spellpower" : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 50,
+			"spellpower" : 10,
+			"knowledge"  : 10
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 4,
+			"armorer" : 3,
+			"artillery" : 5,
+			"ballistics" : 5,
+			"diplomacy" : 7,
+			"eagleEye" : 1,
+			"earthMagic" : 1,
+			"estates" : 8,
+			"fireMagic" : 3,
+			"intelligence" : 1,
+			"leadership" : 6,
+			"learning" : 4,
+			"logistics" : 7,
+			"luck" : 4,
+			"mysticism" : 1,
+			"navigation" : 5,
+			"necromancy" : 0,
+			"offence" : 4,
+			"pathfinding" : 5,
+			"resistance" : 5,
+			"scholar" : 1,
+			"scouting" : 2,
+			"sorcery" : 2,
+			"tactics" : 3,
+			"waterMagic" : 2,
+			"wisdom" : 4,
+			"firstAid" : 1
+		},
+		"defaultTavern" : 5,
+		
+		"tavern" :
+		{
+			"castle" : 7,
+			"conflux" : 5,
+			"court" : 8,
+			"dungeon" : 5,
+			"fortress" : 2,
+			"inferno" : 6,
+			"necropolis" : 4,
+			"rampart" : 3,
+			"stronghold" : 4,
+			"tower" : 6
+		}
+	}
+}

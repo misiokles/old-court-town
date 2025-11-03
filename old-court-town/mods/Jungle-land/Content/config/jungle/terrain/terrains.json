@@ -1,0 +1,19 @@
+{
+	 "jungle" :
+	 {
+		"text":"Jungle",
+		"moveCost" : 175,
+		"minimapUnblocked" : [ 126, 167, 73 ],
+		"minimapBlocked"   : [ 12, 52, 2 ],
+		"music" : [ "Swamp.mp3" ],
+		"tiles" : "jungle/terrain/jungle",
+		"type" : ["SURFACE"],
+		"shortIdentifier" : "ju",
+		"terrainViewPatterns" : "grass",
+		"river" : "waterRiver",
+		"rockTerrain":"rock",
+		"battleFields" : ["jungle"],
+		"horseSound" : "horse04",
+		"horseSoundPenalty" : "horse24"
+	 }
+}

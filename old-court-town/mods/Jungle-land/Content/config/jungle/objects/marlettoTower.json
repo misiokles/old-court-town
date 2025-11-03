@@ -1,0 +1,16 @@
+{
+	"core:marlettoTower" : {
+		"types" : {
+			"marlettoTower" : {
+				"templates" : {
+					"junMarTow" : {
+						"animation" : "jungle/objects/marlettoTower/junMarTow",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVB", "VBB", "VBA"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

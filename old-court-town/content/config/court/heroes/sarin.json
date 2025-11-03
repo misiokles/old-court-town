@@ -1,17 +1,17 @@
 {
 	"sarin" : 
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sage",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "萨林",
-			"biography" : "人们对萨林知之甚少。",
+			"name" : "Sarin",
+			"biography" : "Sarin is capable of depriving everyone of their strength with a slight wave of his hand.",
 			"specialty" : 
 			{
-				"description" : "在火系魔法上每级得到5%的额外伤害奖励。",
-				"tooltip" : "技能加成：火系魔法",
-				"name" : "火系魔法"
+				"description" : "{Weakness}\r\n\r\nReceives a 5% per level bonus to Weakness spell.",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
 			}
 		},
 		"images" :
@@ -21,38 +21,24 @@
 			"large" : "court/heroes/sarin/portrait-large.png",
 			"small" : "court/heroes/sarin/portrait-small.png"
 		},
-
-		"spellbook" :
-		[
-			"landMine"
-		],
+        "spellbook": [ "weakness" ],
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "fireMagic"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "waterMagic", "level": "basic" }
 		],
-		
-		"specialty": //fireMagic
-		{
-			"bonuses":
-			{
-				"fireMagic": {
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "fire",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val": 5
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}

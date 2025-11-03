@@ -1,0 +1,105 @@
+{
+	"core:flowers" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanFlo1" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo1",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo2" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo2",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo3" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo3",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo4" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo4",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo5" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo5",
+						"mask" : [ "VBV" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo6" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo6",
+						"mask" : [ "VBV" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo7" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo7",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo8" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo8",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanFlo9" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo9",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo10" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo10",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanFlo11" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo11",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"junLanFlo12" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo12",
+						"mask" : [ "VBB" ],
+						"allowedTerrains": [ "jungle" ]
+					 },
+					"junLanFlo13" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo13",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo14" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo14",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo15" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo15",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "jungle" ]
+                    },
+					"junLanFlo17" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo17",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo18" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo18",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo19" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo19",
+						"mask" : [ "BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					},
+					"junLanFlo20" : {
+						"animation" :  "jungle/decorations/flowers/junLanFlo20",
+						"mask" : [ "VVV","BBB" ],
+						"allowedTerrains": [ "jungle" ]
+					}
+				}
+			}
+		}
+	}
+}

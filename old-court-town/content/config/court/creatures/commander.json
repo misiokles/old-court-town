@@ -3,32 +3,23 @@
 	{
 		"name" :
 		{
-			"plural" : "绅士",
-			"singular" : "绅士"
+			"plural" : "Thanes",
+			"singular" : "Thane"
 		},
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
-		},
-		"faction" : "neutral",
-		"aiValue" : 1000,
-		"attack" : 5,
+		"faction" : "court",
+		"aiValue" : 680,
+		"attack" : 7,
 		"damage" :
 		{
-			"max" : 10,
-			"min" : 10
+			"max" : 17,
+			"min" : 14
 		},
-		"defense" : 5,
-		"fightValue" : 1000,
-		"cost" :
-		{
-			"gold" : 140
-		},
+		"defense" : 7,
+		"fightValue" : 628,
 		"graphics" :
 		{
 			"animation" : "court/battle/creatures/commander.def",
-//			"map" : "court/map/creatures/mapcommander.def",
+			"map" : "court/map/creatures/mapcommander.def",
 			"iconSmall" : "court/iconsSmall/commander.bmp",
 			"iconLarge" : "court/iconsBig/commander.bmp",
 			"timeBetweenFidgets" : 1,
@@ -54,9 +45,8 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
 		},
-		"growth" : 9,
-		"hasDoubleWeek": false,
-		"hitPoints" : 50,
+		"growth" : 1,
+		"hitPoints" : 60,
 		"level" : 0,
 		"shots" : 24,
 		"special" : true,
@@ -85,31 +75,15 @@
 			{
 				"type" : "MIND_IMMUNITY"
 			},
-			"magicResistance" :
-			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 5
-			},
-			"castsAmount" :
+			"casts" :
 			{
 				"type" : "CASTS",
-				"val" : 1
-			},
-			"enchant" :
-			{
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 1
-			},
-			"spellpower" :
-			{
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
+				"val" : 3
 			},
 			"castPrecision" :
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.precision",
-				"val" : 3
 			}
 		}	
 	}

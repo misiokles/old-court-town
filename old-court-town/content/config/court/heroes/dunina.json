@@ -1,17 +1,17 @@
 {
 	"dunina" : 
 	{
-		"class" : "courtPhilosopher",
+		"class" : "sage",
 		"female" : true,
                  "texts" :
 		{
-			"name" : "杜妮娜",
-			"biography" : "人们对杜妮娜知之甚少。",
+			"name" : "Dunina",
+			"biography" : "Dunina has been interested in mystical practices since childhood and understands perfectly what needs to be done to quickly restore her magical powers.",
 			"specialty" :
 			{
-				"description" : "在土系魔法上每级得到5%的额外伤害奖励。",
-				"tooltip" : "技能加成：土系魔法",
-				"name" : "土系魔法"
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill.",
+				"tooltip" : "Secondary Skill Bonus: Mysticism",
+				"name" : "Mysticism"
 			}
 		},
 
@@ -29,33 +29,18 @@
 		],
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "earthMagic"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
 		],
-		
-		"specialty": //Diplomacy
-		{
-			"bonuses":
-			{
-				"earthMagic": {
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "earth",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val": 5
-				}
-			}
-		}
+		"specialty" : {
+			"secondary" : "mysticism"
+		}		
 	}
 }
+

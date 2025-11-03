@@ -4,26 +4,28 @@
 		"advMapAmount" :
 		{
 			 "max" : 10,
-			 "min" : 4
+			 "min" : 5
 		},
 		"name" :
 		{
-			"plural" : "自走铁炮",
-			"singular" : "自走铁炮"
+			"plural" : "Walkers",
+			"singular" : "Walker"
 		},
 		"faction": "court",
 		"aiValue" : 4419,
 		"fightValue" : 3251,
 		"attack" : 19,
-		"defense" : 18,
+		"defense" : 17,
 		"cost" :
 		{
-			"gold" : 1400
+			"gold" : 1400,
+            "gems" : 1
+			
 		},
 		"damage" :
 		{
-			 "min" : 30,
-			 "max" : 40
+			 "max" : 50,
+			 "min" : 25
 		},
 		"speed" : 8,
 		"graphics" :
@@ -55,7 +57,7 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 			}
 		},	
-		"hitPoints" : 125,
+		"hitPoints" : 160,
 		"doubleWide" : true,
 		"upgrades":
 		[
@@ -63,7 +65,7 @@
 		],				
 		"growth" : 1,
 		"level" : 7,
-		"shots" : 12,		
+		"shots" : 6,		
 		"sound" :
 		{
 			"attack": "CYCLATTK.wav",
@@ -73,67 +75,24 @@
 			"shoot": "CYCLSHOT.wav",
 			"wince": "CYCLWNCE.wav"
 		},
-		"abilities" :
+		"abilities": 
 		{
-			"canShoot" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
-                       "immuneToMind" : 
-			{
-				"type" : "MIND_IMMUNITY"
-			},
-                        "noPenalty" :
+			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"nonliving":
-			{	
+			"noWallPenalty" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"nonliving" : 
+			{
 				"type" : "NON_LIVING"
-		       }
-		},
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.attack",
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "primarySkill.defence",
-					"type" : "PRIMARY_SKILL"
-				},
-				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMin",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}
-		]
+		}
 	}
 }

@@ -1,0 +1,16 @@
+{
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"jungleSubgate01" : {
+						"animation" :  "jungle/special/subgates/AVSUG001",   
+						"visitableFrom" : ["---", "+++", "+++"],
+						"mask" : [  "VVVV", "VVVV", "VBAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

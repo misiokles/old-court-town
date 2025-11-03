@@ -1,17 +1,17 @@
 {
 	"victoria" : 
 	{
-		"class" : "mentat",
+		"class" : "sculptor",
 		"female" : true,
 		"texts" :
 		{
-			"name" : "维多利亚",
-			"biography" : "人们对维多利亚知之甚少。", 
+			"name" : "Victoria",
+			"biography" : "Victoria had the makings of a leader from childhood, and thanks to her tenacity and charisma, she became the most formidable woman among the noblewomen.", 
 			"specialty" :
 			{
-				"description" : "达到4级以后提高女男爵或女伯爵的攻击力与防御力。",
-				"tooltip" : "生物强化：女男爵",
-				"name" : "女男爵"
+				"description" : "{Baronesses and Countesses}\r\n\r\nIncreases Speed of any Baronesses or Countesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Baronesses",
+				"name" : "Baronesses"
 			}
 		},
 		"images" :
@@ -24,22 +24,15 @@
 		},
 		"army" :
 		[
-			{ "creature" : "culv1", "min" : 10, "max" : 15 },
-			{ "creature" : "culv2", "min" : 6, "max" : 9 },
-			{ "creature" : "culv3", "min" : 4, "max" : 6}
+			{ "creature" : "culv1", "min" : 12, "max" : 25 },
+			{ "creature" : "culv2", "min" : 6, "max" : 11 },
+			{ "creature" : "culv3", "min" : 3, "max" : 5}
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "scouting"
-			}
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
 		],
-		
 		"specialty" : {
 			"creature" : "culv4"
 		}		

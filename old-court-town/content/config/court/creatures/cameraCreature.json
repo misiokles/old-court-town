@@ -1,0 +1,83 @@
+{
+	"cuCamera":
+	{
+		"name" : { "plural" : "Camerae Obscurae", "singular" : "Camera Obscura" },
+		"faction" : "neutral",
+		"level": 0,
+		"aiValue" : 2500,
+		"special" : true,
+		"attack" : 0,
+                "cost" :
+		{
+			"gold" : 3000
+		},
+		"defense" : 0,
+		"fightValue" : 2500,
+		"graphics" :
+		{
+			"animation" : "court/battle/creatures/WMCamera.def",
+			"iconSmall" : "court/iconsSmall/SMCamra_small01",
+			"iconLarge" : "court/iconsBig/SMCamra1",
+			"map" : "court/map/creatures/lvl1unit.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"killed": "CARTKILL.wav",
+			"wince": "CARTWNCE.wav",
+			"shoot": "court/camera/cameraCast.wav",
+		},
+		"doubleWide" : false,
+		"growth" : 0,
+		"hitPoints" : 125,
+		"speed" : 5,
+		"abilities" :
+		{	
+			"agingSpellpower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"subtype" : "spell.ageCamera",
+				"val" : 3
+			},			
+			"ageCasting" : 
+			{
+				"type" : "SPELLCASTER",
+				"subtype": "spell.ageCamera",
+				"val": 3,
+				"addInfo" : 100
+			},	
+			"summonSpellpower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.summonApparition",
+				"val" : 100
+			},
+			"summonCasting" : 
+			{
+				"type" : "SPELLCASTER",
+				"subtype": "spell.summonApparition",
+				"val": 3,
+				"addInfo" : 100
+			},			
+			"casts" : 
+			{
+				"type" : "CASTS",
+				"val": 5
+			},						
+		      "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION"
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			}
+		}
+	}
+}

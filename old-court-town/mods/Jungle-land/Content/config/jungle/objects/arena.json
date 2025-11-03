@@ -1,0 +1,16 @@
+{
+	"core:arena" : {
+		"types" : {
+			"arena" : {
+				"templates" : {
+					"jungle" : {
+						"animation" : "jungle/objects/arena/jungleArena",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "BBB", "BAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:libraryOfEnlightenment" : {
+		"types" : {
+			"libraryOfEnlightenment" : {
+				"templates" : {
+					"jungle" : {
+						"animation" : "jungle/objects/library/junglelibrary",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VBBBB", "VBBAB"],
+						"allowedTerrains" : ["jungle"]
+					}
+				}
+			}
+		}
+	}
+}

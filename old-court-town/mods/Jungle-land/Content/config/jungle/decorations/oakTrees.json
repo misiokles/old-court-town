@@ -1,0 +1,70 @@
+{
+	"core:oakTrees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"juLanOak00" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak00",  
+					"mask" : [ "VVV","VBV","VBV"],
+					"allowedTerrains": [ "jungle" ]
+					},						
+					"juLanOak01" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak01", 					 
+					"mask" : [ "VVV","VBV","VBV"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak02" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak02", 					 
+					"mask" : [ "VB", "VB"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak03" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak03", 
+					"mask" : [ "VV", "VB"],
+					"allowedTerrains": [ "jungle" ]
+					},					
+					"juLanOak04" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak04", 
+					"mask" : [ "VVBB", "VBBB", "VBBV"],
+					"allowedTerrains": [ "jungle" ]
+					},					
+					"juLanOak05" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak05",  
+					"mask" : [ "VVBV", "VBBB", "VBBV"],
+					"allowedTerrains": [ "jungle" ]
+					},					
+					"juLanOak06" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak06",  
+					"mask" : [ "VBBV", "VBBB", "VVBB"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak07" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak07",  
+					"mask" : [ "VBBV", "VBBV", "VVBB"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak08" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak08",  
+					"mask" : [ "VBBV", "VBBB", "VBBB", "VVBB"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak09" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak09",  
+					"mask" : [ "VVBB", "VVBB", "VBBB", "VBBV"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak10" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak10",  
+					"mask" : [ "VB", "VB"],
+					"allowedTerrains": [ "jungle" ]
+					},
+					"juLanOak11" : { 
+					"animation" : "jungle/decorations/oakTrees/juLanOak11",  
+					"mask" : [ "VB", "VB"],
+					"allowedTerrains": [ "jungle" ]
+					}
+				}
+			}
+		}
+	}
+}

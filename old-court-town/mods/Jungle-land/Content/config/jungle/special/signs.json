@@ -1,0 +1,16 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junglesign" : {
+						"animation" : "jungle/special/sign/avxsnhl",
+						"allowedTerrains": [ "jungle" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+    "name" : "Jungle Terrain",
+    "description" : "Jungle Terrain",
+	"modType" : "Objects",
+    "version" : "0.1",
+    "author" : "Noname, Fred79 for objects",
+    "contact" : "none",
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	"conflicts" :
+	[
+
+	],
+	"changelog" :
+	{
+		"0.0.1"   : [ "Initial release" ]
+	},
+	"terrains":
+	[
+		"config/jungle/terrain/terrains.json"
+	],
+	"factions" :
+	[
+		"config/jungle/terrain/factionTerrain.json"
+	],
+	"obstacles" :
+	[
+		"config/jungle/terrain/obstacles.json"
+	],
+	"battlefields":
+	[
+		"config/jungle/battlefields/battlefields.json"
+	],
+	"objects":
+	[		
+		"config/jungle/decorations/flowers.json",				
+		"config/jungle/decorations/mountains.json",								
+		"config/jungle/decorations/mushrooms.json",				
+		"config/jungle/decorations/oakTrees.json",				
+		"config/jungle/decorations/rocks.json",				
+		"config/jungle/decorations/shrubs.json",				
+		"config/jungle/decorations/stump.json",				
+		"config/jungle/decorations/swaleHill.json",				
+		"config/jungle/decorations/lakes.json",				
+		"config/jungle/decorations/trees.json",				
+		"config/jungle/objects/abandonedMine.json",
+       	"config/jungle/objects/arena.json",
+       	"config/jungle/objects/dragonUtopia.json",
+        "config/jungle/objects/hillFort.json",
+        "config/jungle/objects/jungleHole.json",
+        "config/jungle/objects/library.json",
+        "config/jungle/objects/marlettoTower.json",
+        "config/jungle/objects/witchHut.json",
+        "config/jungle/special/mines.json",
+		"config/jungle/special/obelisks.json",
+		"config/jungle/special/signs.json",
+		"config/jungle/special/subgates.json"
+		
+
+	]
+}
